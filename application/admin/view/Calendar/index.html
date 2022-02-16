@@ -1,0 +1,97 @@
+{include file="Public/base" /}
+<block name="main">
+    <fieldset class="layui-elem-field">
+        <legend>万年历</legend>
+        <div class="layui-field-box">
+            <span class="layui-btn layui-btn-normal api-add" data-title="新增"><i class="layui-icon">&#xe608;</i>
+                新增</span>
+            <table class="layui-table" lay-even>
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>真太阳时</th>
+                    <th>公历</th>
+                    <th>农历</th>
+                    <th>生辰八字</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody id="menu-list">
+                {volist name="list" id="vo"}
+                <tr>
+                    <td>{$i}</td>
+                    <td>{$vo['name']}</td>
+                    <td>{if $vo['sex']==1}男{else/}女{/if}</td>
+                    <td>{$vo['sun_calibration']}</td>
+                    <td>{$vo['G_calendar']}</td>
+                    <td>{$vo['L_calendar']}</td>
+                    <td>{$vo['S_calendar']}</td>
+                    <td>
+                        <span data-url="{:url('edit')}" data-id="{$vo['id']}" data-title="编辑人员" class="layui-btn layui-btn-small edit layui-btn-normal"><i class="layui-icon">&#xe642;</i></span>
+                        <span class="layui-btn layui-btn-small layui-btn-danger confirm" data-id="{$vo['id']}" data-title="删除用户" data-info="你确定删除该用户么？" data-url="{:url('del')}"><i class="layui-icon">&#xe640;</i></span>
+                    </td>
+                </tr>
+                {/volist}
+                </tbody>
+            </table>
+        </div>
+    </fieldset>
+</block>
+<block name="myScript">
+    <script>
+        layui.use(['form', 'layer'], function() {
+            var form = layui.form();
+
+            $('.api-add').on('click', function () {
+                var ownObj = $(this);
+                layer.open({
+                    type: 2,
+                    offset:'35px',
+                    title: ownObj.attr('data-title'),
+                    area: ['80%', '80%'],
+                    maxmin: true,
+                    content: '{:url("add")}'
+                });
+            });
+            $(document).on('click', '.edit', function () {
+                var ownObj = $(this);
+                layer.open({
+                    type: 2,
+                    offset:'35px',
+                    area: ['80%', '80%'],
+                    title: ownObj.attr('data-title'),
+                    maxmin: true,
+                    content: ownObj.attr('data-url')+'?id='+ownObj.attr('data-id')
+                });
+            });
+
+            $(document).on('click', '.confirm', function () {
+                var ownObj = $(this);
+                layer.confirm(ownObj.attr('data-info'), {
+                    title: ownObj.attr('data-title'),
+                    btn: ['确定','取消'] //按钮
+                }, function(){
+                    $.ajax({
+                        type: "POST",
+                        url: ownObj.attr('data-url'),
+                        data: {id:ownObj.attr('data-id')},
+                        success: function(msg){
+                            if( msg.code == 1 ){
+                                location.reload();
+                            }else{
+                                layer.msg(msg.msg, {
+                                    icon: 5,
+                                    shade: [0.6, '#393D49'],
+                                    time:1500
+                                });
+                            }
+                        }
+                    });
+                });
+            });
+
+        })
+    </script>
+</block>

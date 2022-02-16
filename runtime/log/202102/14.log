@@ -1,0 +1,4176 @@
+---------------------------------------------------------------
+[ 2021-02-14T00:00:03+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017606s] [吞吐率：56.80req/s] [内存消耗：2,626.07kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-02-14T00:10:03+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018044s] [吞吐率：55.42req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000170s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2021-02-14T00:20:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017791s] [吞吐率：56.21req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000171s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2021-02-14T00:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.050100s] [吞吐率：19.96req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012690s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2021-02-14T00:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018072s] [吞吐率：55.33req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000193s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-02-14T00:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017801s] [吞吐率：56.18req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000201s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-02-14T01:00:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017875s] [吞吐率：55.94req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000174s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-02-14T01:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017824s] [吞吐率：56.10req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000169s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2021-02-14T01:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017551s] [吞吐率：56.98req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2021-02-14T01:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.100547s] [吞吐率：9.95req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018181s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.033220s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2021-02-14T01:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017969s] [吞吐率：55.65req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2021-02-14T01:50:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017836s] [吞吐率：56.07req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000171s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-02-14T02:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018059s] [吞吐率：55.37req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000191s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2021-02-14T02:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017827s] [吞吐率：56.09req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000170s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[ 2021-02-14T02:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018175s] [吞吐率：55.02req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[ 2021-02-14T02:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.036707s] [吞吐率：27.24req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001401s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2021-02-14T02:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.020562s] [吞吐率：48.63req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000233s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2021-02-14T02:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018247s] [吞吐率：54.80req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000192s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2021-02-14T03:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018019s] [吞吐率：55.50req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000194s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-02-14T03:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018153s] [吞吐率：55.09req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000187s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2021-02-14T03:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018229s] [吞吐率：54.86req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000205s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2021-02-14T03:30:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.121993s] [吞吐率：8.20req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029560s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.037068s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.005090s ]
+---------------------------------------------------------------
+[ 2021-02-14T03:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017980s] [吞吐率：55.62req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000187s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2021-02-14T03:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017988s] [吞吐率：55.59req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000196s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2021-02-14T04:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018140s] [吞吐率：55.13req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000195s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2021-02-14T04:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018038s] [吞吐率：55.44req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000193s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2021-02-14T04:20:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017833s] [吞吐率：56.08req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000174s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2021-02-14T04:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.072099s] [吞吐率：13.87req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002556s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000545s ]
+---------------------------------------------------------------
+[ 2021-02-14T04:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018187s] [吞吐率：54.98req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000192s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2021-02-14T04:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018233s] [吞吐率：54.85req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000193s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-02-14T05:00:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018226s] [吞吐率：54.87req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000193s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2021-02-14T05:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018157s] [吞吐率：55.08req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000191s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2021-02-14T05:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.020357s] [吞吐率：49.12req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000187s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2021-02-14T05:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.051571s] [吞吐率：19.39req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000227s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2021-02-14T05:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017853s] [吞吐率：56.01req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000183s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-02-14T05:50:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.019720s] [吞吐率：50.71req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000178s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2021-02-14T06:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018056s] [吞吐率：55.38req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2021-02-14T06:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018117s] [吞吐率：55.20req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000187s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2021-02-14T06:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017820s] [吞吐率：56.12req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000183s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2021-02-14T06:30:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.033559s] [吞吐率：29.80req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.005903s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2021-02-14T06:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018076s] [吞吐率：55.32req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000175s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-02-14T06:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017904s] [吞吐率：55.85req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000169s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2021-02-14T07:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017882s] [吞吐率：55.92req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000177s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-02-14T07:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017841s] [吞吐率：56.05req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000192s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-02-14T07:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018156s] [吞吐率：55.08req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2021-02-14T07:30:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.064202s] [吞吐率：15.58req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2021-02-14T07:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.019349s] [吞吐率：51.68req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000172s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2021-02-14T07:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017661s] [吞吐率：56.62req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2021-02-14T08:00:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017823s] [吞吐率：56.11req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000172s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-02-14T08:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017704s] [吞吐率：56.48req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2021-02-14T08:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017886s] [吞吐率：55.91req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000190s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2021-02-14T08:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.085340s] [吞吐率：11.72req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018442s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2021-02-14T08:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017858s] [吞吐率：56.00req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000173s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2021-02-14T08:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017822s] [吞吐率：56.11req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2021-02-14T09:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018958s] [吞吐率：52.75req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000166s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2021-02-14T09:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017957s] [吞吐率：55.69req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000185s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-02-14T09:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018142s] [吞吐率：55.12req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000185s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2021-02-14T09:30:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.033492s] [吞吐率：29.86req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003984s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2021-02-14T09:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017764s] [吞吐率：56.29req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000174s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2021-02-14T09:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018464s] [吞吐率：54.16req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000201s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2021-02-14T10:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017935s] [吞吐率：55.76req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000175s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2021-02-14T10:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017999s] [吞吐率：55.56req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000173s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2021-02-14T10:20:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017989s] [吞吐率：55.59req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000169s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2021-02-14T10:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.066249s] [吞吐率：15.09req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016960s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.001220s ]
+---------------------------------------------------------------
+[ 2021-02-14T10:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018019s] [吞吐率：55.50req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000175s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2021-02-14T10:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017948s] [吞吐率：55.72req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000178s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-02-14T11:00:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018329s] [吞吐率：54.56req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2021-02-14T11:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.019689s] [吞吐率：50.79req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000184s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2021-02-14T11:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017821s] [吞吐率：56.11req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000170s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2021-02-14T11:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.072185s] [吞吐率：13.85req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006500s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2021-02-14T11:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017909s] [吞吐率：55.84req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000175s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-02-14T11:50:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018242s] [吞吐率：54.82req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000177s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-02-14T12:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017892s] [吞吐率：55.89req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000171s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-02-14T12:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018102s] [吞吐率：55.24req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2021-02-14T12:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017699s] [吞吐率：56.50req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000178s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2021-02-14T12:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.034256s] [吞吐率：29.19req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001283s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.002834s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.003590s ]
+---------------------------------------------------------------
+[ 2021-02-14T12:40:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018162s] [吞吐率：55.06req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000187s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2021-02-14T12:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018734s] [吞吐率：53.38req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2021-02-14T13:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018158s] [吞吐率：55.07req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000188s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2021-02-14T13:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017768s] [吞吐率：56.28req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2021-02-14T13:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018010s] [吞吐率：55.53req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2021-02-14T13:30:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.064845s] [吞吐率：15.42req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005014s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2021-02-14T13:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017760s] [吞吐率：56.31req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000164s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2021-02-14T13:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017763s] [吞吐率：56.30req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000180s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2021-02-14T14:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018137s] [吞吐率：55.14req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000180s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2021-02-14T14:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017810s] [吞吐率：56.15req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-02-14T14:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.020030s] [吞吐率：49.93req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000184s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2021-02-14T14:30:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.063706s] [吞吐率：15.70req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018120s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2021-02-14T14:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018532s] [吞吐率：53.96req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000208s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2021-02-14T14:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017996s] [吞吐率：55.57req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000192s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2021-02-14T15:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018712s] [吞吐率：53.44req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[ 2021-02-14T15:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017600s] [吞吐率：56.82req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000173s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2021-02-14T15:20:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017812s] [吞吐率：56.14req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2021-02-14T15:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.062178s] [吞吐率：16.08req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008273s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.001616s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2021-02-14T15:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017687s] [吞吐率：56.54req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000169s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2021-02-14T15:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017996s] [吞吐率：55.57req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000175s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2021-02-14T16:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018202s] [吞吐率：54.94req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2021-02-14T16:10:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018182s] [吞吐率：55.00req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000167s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2021-02-14T16:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017593s] [吞吐率：56.84req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000168s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2021-02-14T16:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.052931s] [吞吐率：18.89req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000193s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2021-02-14T16:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.019920s] [吞吐率：50.20req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2021-02-14T16:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018040s] [吞吐率：55.43req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000174s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2021-02-14T17:00:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.019408s] [吞吐率：51.53req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000175s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-02-14T17:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018042s] [吞吐率：55.43req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000187s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2021-02-14T17:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017965s] [吞吐率：55.66req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000168s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2021-02-14T17:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.050288s] [吞吐率：19.89req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000177s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2021-02-14T17:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017988s] [吞吐率：55.59req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000177s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2021-02-14T17:50:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018068s] [吞吐率：55.35req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000174s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2021-02-14T18:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017934s] [吞吐率：55.76req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000173s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-02-14T18:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.019274s] [吞吐率：51.88req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2021-02-14T18:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018253s] [吞吐率：54.79req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000192s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2021-02-14T18:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.091990s] [吞吐率：10.87req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030346s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2021-02-14T18:40:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018049s] [吞吐率：55.40req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000177s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-02-14T18:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.019719s] [吞吐率：50.71req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000167s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2021-02-14T19:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018100s] [吞吐率：55.25req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000173s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2021-02-14T19:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018792s] [吞吐率：53.21req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000174s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000746s ]
+---------------------------------------------------------------
+[ 2021-02-14T19:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017894s] [吞吐率：55.88req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000201s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2021-02-14T19:30:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.037318s] [吞吐率：26.80req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003332s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.001972s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2021-02-14T19:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018382s] [吞吐率：54.40req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000207s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-02-14T19:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018333s] [吞吐率：54.55req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000200s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-02-14T20:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017764s] [吞吐率：56.29req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2021-02-14T20:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017869s] [吞吐率：55.96req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-02-14T20:20:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018537s] [吞吐率：53.95req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000198s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2021-02-14T20:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.038105s] [吞吐率：26.24req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005943s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.005613s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2021-02-14T20:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018247s] [吞吐率：54.80req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000202s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2021-02-14T20:50:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017810s] [吞吐率：56.15req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000169s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2021-02-14T21:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018080s] [吞吐率：55.31req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000169s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2021-02-14T21:10:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017933s] [吞吐率：55.76req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000178s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2021-02-14T21:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017797s] [吞吐率：56.19req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2021-02-14T21:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.057649s] [吞吐率：17.35req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002637s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.005674s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.005664s ]
+---------------------------------------------------------------
+[ 2021-02-14T21:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017768s] [吞吐率：56.28req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2021-02-14T21:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.020271s] [吞吐率：49.33req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-02-14T22:00:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018075s] [吞吐率：55.33req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2021-02-14T22:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017630s] [吞吐率：56.72req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000168s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2021-02-14T22:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017641s] [吞吐率：56.69req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-02-14T22:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.115433s] [吞吐率：8.66req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030263s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.021081s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.008981s ]
+---------------------------------------------------------------
+[ 2021-02-14T22:40:02+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018069s] [吞吐率：55.34req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000186s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2021-02-14T22:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017925s] [吞吐率：55.79req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000190s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2021-02-14T23:00:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018129s] [吞吐率：55.16req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000188s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-02-14T23:10:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017804s] [吞吐率：56.17req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000175s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000257s ]
+---------------------------------------------------------------
+[ 2021-02-14T23:20:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018079s] [吞吐率：55.31req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000175s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000257s ]
+---------------------------------------------------------------
+[ 2021-02-14T23:30:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.042993s] [吞吐率：23.26req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000245s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2021-02-14T23:40:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.017678s] [吞吐率：56.57req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000184s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2021-02-14T23:50:01+08:00 ] 39.101.182.111 GET pgtapi.cooov.com/Notice/crontab
+[运行时间：0.018068s] [吞吐率：55.35req/s] [内存消耗：2,626.08kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Notice',
+    2 => 'crontab',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.61.1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Notice->crontab[ /www/wwwroot/peigongtang/application/api/controller/Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000172s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0  AND `type` = 1  AND `Live_state` = 0 [ RunTime:0.000272s ]

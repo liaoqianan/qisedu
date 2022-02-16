@@ -1,0 +1,98 @@
+{include file="Public/base" /}
+<style type="text/css">
+    .layui-input-block ul{margin-top: 5px;}
+	.layui-input-block ul li {list-style:none; display:inline-block; position:relative; border: 1px solid #DFDFDF; margin: 0 2px;}
+	.my-icons { color: #ffff00; position: absolute; right: 5px; z-index: 2147483647; cursor: pointer; top: 5px;}
+	.myiframe { border:0; height: 650px; width: 100%;}
+    .layui-form-select dl {z-index:99999;}
+</style>
+<block name="main">
+    <fieldset class="layui-elem-field">
+        <legend>{$detail['id']?'编辑':'新增'}分类</legend>
+        <div class="layui-field-box">
+            <form class="layui-form" action="">
+                {if condition="isset($detail['id'])"}
+                <input type="hidden" name="id" value="{$detail['id']}">
+                {/if}
+                <div class="layui-form-item">
+                    <label class="layui-form-label"><span style="color:red">*</span>分类名称:</label>
+                    <div class="layui-input-block" style="line-height: 36px;">
+                        <input type="text" name="name" required value="{$detail['name']?$detail['name']:''}" maxlength="100" lay-verify="required" placeholder="请输入分类名称" class="layui-input">
+                    </div>
+                </div>
+				<div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit lay-filter="admin-form">立即提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+</block>
+<block name="myScript">
+
+	<script>
+        function tips(msg) {
+            layer.msg(msg, {
+                icon: 5,
+                shade: [0.6, '#393D49'],
+                time:1500
+            });
+        }	
+						
+	</script>	
+    {if condition="isset($detail['id'])"}
+        <script>
+            layui.use('form', function(){
+                var form = layui.form();
+                form.on('submit(admin-form)', function(data){
+                    $.ajax({
+                        type: "POST",
+                        url: '{:url("editCategory")}',
+                        data: data.field,
+                        success: function(msg){
+                            if( msg.code == 1 ){
+                                parent.location.reload();
+                            }else{
+                                parent.layer.msg(msg.msg, {
+                                    icon: 5,
+                                    shade: [0.6, '#393D49'],
+                                    time:1500
+                                });
+                            }
+                        }
+                    });
+                    return false;
+                });
+
+            });
+        </script>
+        {else}
+        <script>
+            layui.use('form', function(){
+                var form = layui.form();
+                form.on('submit(admin-form)', function(data){
+                    $.ajax({
+                        type: "POST",
+                        url: '{:url("addCategory")}',
+                        data: data.field,
+                        success: function(msg){
+                            if( msg.code == 1 ){
+                                parent.location.reload();
+                            }else{
+                                parent.layer.msg(msg.msg, {
+                                    icon: 5,
+                                    shade: [0.6, '#393D49'],
+                                    time:1500
+                                });
+                            }
+                        }
+                    });
+                    return false;
+                });
+
+            });
+        </script>
+    {/if}
+</block>

@@ -1,0 +1,115 @@
+{include file="Public/base" /}
+<block name="main">
+    <fieldset class="layui-elem-field">
+        <legend>人员管理 - {$detail['id']?'编辑':'新增'}人员</legend>
+        <div class="layui-field-box">
+            <form class="layui-form" action="">
+                {notempty name='detail'}
+                    <input type="hidden" name="id" value="{$detail['id']}">
+                {/notempty}
+                <div class="layui-form-item">
+                    <label class="layui-form-label"><span style="color:red">*</span>用户账号</label>
+                    <div class="layui-input-block" style="line-height: 36px;">
+                        <input type="text" name="username" maxlength="12" required value="{$detail['username']?$detail['username']:''}" lay-verify="required" placeholder="请输入登陆账号" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label"><span style="color:red">*</span> 真实姓名</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="nickname" maxlength="12" required value="{$detail['nickname']?$detail['nickname']:''}" lay-verify="required" placeholder="请输入真实姓名" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label" style="margin-right: 15px;"><span style="color:red">*</span> 用户密码</label>
+                    {empty name='detail'}
+                    <div class="layui-input-inline">
+                        <input type="password" name="password" maxlength="32" required lay-verify="required" value="{$detail['password']?'':'wxys2020'}" placeholder="请输入密码" class="layui-input">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">默认:wxys2020</div>
+                    {else /}
+                    <div class="layui-input-inline">
+                        <input type="password" name="password" value="" placeholder="不修改请留空" class="layui-input">
+                    </div>
+                    {/empty}
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label"><span style="color:red">*</span> 手机号码</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="mobile" maxlength="20" required value="{$detail['mobile']?$detail['mobile']:''}" lay-verify="required" placeholder="请输入手机号码" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label"><span style="color:red">*</span> 所属角色</label>
+                    <div class="layui-input-block">
+                        <select class="m-wrap" name="groupId" required lay-verify="required">
+                            {volist name="roles" id="vo"}
+                                <option value="{$vo.id}" {if condition="isset($detail) && $detail['groupId'] == $vo['id']"}selected{/if}>{$vo.name}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit lay-filter="admin-form">立即提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+</block>
+<block name="myScript">
+    {if condition="isset($detail['id'])"}
+        <script>
+            layui.use('form', function(){
+                var form = layui.form();
+                form.on('submit(admin-form)', function(data){
+                    $.ajax({
+                        type: "POST",
+                        url: '{:url("edit")}',
+                        data: data.field,
+                        success: function(msg){
+                            if( msg.code == 1 ){
+                                parent.location.reload();
+                            }else{
+                                parent.layer.msg(msg.msg, {
+                                    icon: 5,
+                                    shade: [0.6, '#393D49'],
+                                    time:1500
+                                });
+                            }
+                        }
+                    });
+                    return false;
+                });
+
+            });
+        </script>
+        {else}
+        <script>
+            layui.use('form', function(){
+                var form = layui.form();
+                form.on('submit(admin-form)', function(data){
+                    $.ajax({
+                        type: "POST",
+                        url: '{:url("add")}',
+                        data: data.field,
+                        success: function(msg){
+                            if( msg.code == 1 ){
+                                parent.location.reload();
+                            }else{
+                                parent.layer.msg(msg.msg, {
+                                    icon: 5,
+                                    shade: [0.6, '#393D49'],
+                                    time:1500
+                                });
+                            }
+                        }
+                    });
+                    return false;
+                });
+
+            });
+        </script>
+    {/if}
+</block>

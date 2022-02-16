@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bf8e0598-5898-40ee-8deb-57146e1d8d40" name="睡乐" url="http://39.101.182.111">
+        <fileTransfer host="39.101.182.111" port="22" rootFolder="/www/wwwroot/shuiyue" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="000d894d-fbbe-44c4-8138-05b87667a5df" name="培公堂" url="http://39.101.182.111">
+        <fileTransfer host="39.101.182.111" port="22" rootFolder="/www/wwwroot/peigongtang" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

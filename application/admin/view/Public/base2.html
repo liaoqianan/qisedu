@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <title>{:config('APP_NAME')}管理后台</title>
+    <link rel="stylesheet" href="/static/admin/plugins/layui2/css/layui.css">
+    <script type="text/javascript" src="/static/admin/plugins/laydate/laydate.js"></script>
+    <script src="/static/admin/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/admin/plugins/layui2/layui.js"></script>
+    <script type="text/javascript" src="/static/admin/plugins/dataTable/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="/static/admin/plugins/dataTable/dataTable.css">
+    <link href="/static/admin/plugins/bootstrap/css/edit_bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/admin/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <script src="/static/admin/plugins/daterangepicker/moment.min.js" type="text/javascript"></script>
+    <script src="/static/admin/plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
+    <block name="myCss"></block>
+</head>
+<body>
+<div style="margin: 15px;">
+    <block name="main"></block>
+</div>
+<block name="myScript"></block>
+</body>
+</html>

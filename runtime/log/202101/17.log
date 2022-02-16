@@ -1,0 +1,583 @@
+---------------------------------------------------------------
+[ 2021-01-17T08:12:37+08:00 ] 111.7.96.146 OPTIONS pgtapi.cooov.com/index/share
+[运行时间：0.042410s] [吞吐率：23.58req/s] [内存消耗：1,810.27kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'same-site',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-headers' => 'platform,token,uid',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-17T08:12:37+08:00 ] 111.7.96.146 POST pgtapi.cooov.com/buildtoken/getAccessToken
+[运行时间：0.049075s] [吞吐率：20.38req/s] [内存消耗：1,850.48kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'buildtoken',
+    2 => 'getAccessToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'https://pgt.cooov.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-length' => '90',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'timestamp' => '1610842356',
+  'app_id' => '49789999',
+  'user_id' => '25',
+  'signature' => 'e7b5278f26d0613b1c6f733bb3437acf',
+)
+[ info ] [ RUN ] app\api\controller\Buildtoken->getAccessToken[ /www/wwwroot/peigongtang/application/api/controller/Buildtoken.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-17T08:12:37+08:00 ] 111.7.96.146 OPTIONS pgtapi.cooov.com/index/index
+[运行时间：0.070603s] [吞吐率：14.16req/s] [内存消耗：2,968.69kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'same-site',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-headers' => 'platform,token,uid',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004447s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000128s ]
+---------------------------------------------------------------
+[ 2021-01-17T08:12:37+08:00 ] 111.7.96.146 OPTIONS pgtapi.cooov.com/my/index
+[运行时间：0.012257s] [吞吐率：81.59req/s] [内存消耗：1,821.45kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'same-site',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-headers' => 'platform,token,uid',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-17T08:12:37+08:00 ] 111.7.96.146 POST pgtapi.cooov.com/index/index
+[运行时间：0.043462s] [吞吐率：23.01req/s] [内存消耗：2,968.00kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'https://pgt.cooov.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'platform' => 'mobile',
+  'uid' => '25',
+  'content-length' => '0',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007616s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.003470s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.003717s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000178s ]
+---------------------------------------------------------------
+[ 2021-01-17T08:12:37+08:00 ] 111.7.96.146 POST pgtapi.cooov.com/my/index
+[运行时间：0.031939s] [吞吐率：31.31req/s] [内存消耗：3,003.42kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'https://pgt.cooov.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '362430e74efd2f7f4bee13c2f7bf942a',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'platform' => 'mobile',
+  'uid' => '25',
+  'content-length' => '0',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000200s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000193s ]
+---------------------------------------------------------------
+[ 2021-01-17T08:12:37+08:00 ] 111.7.96.146 POST pgtapi.cooov.com/my/index
+[运行时间：0.019960s] [吞吐率：50.10req/s] [内存消耗：3,003.42kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'https://pgt.cooov.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '362430e74efd2f7f4bee13c2f7bf942a',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'platform' => 'mobile',
+  'uid' => '25',
+  'content-length' => '0',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000153s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000138s ]
+---------------------------------------------------------------
+[ 2021-01-17T08:12:38+08:00 ] 111.7.96.146 POST pgtapi.cooov.com/index/share
+[运行时间：0.542693s] [吞吐率：1.84req/s] [内存消耗：1,849.77kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'origin' => 'https://pgt.cooov.com',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'platform' => 'mobile',
+  'uid' => '25',
+  'content-length' => '34',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://pgt.cooov.com/',
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-17T08:12:52+08:00 ] 111.7.96.146 HEAD pgtapi.cooov.com:443/
+[运行时间：0.022801s] [吞吐率：43.86req/s] [内存消耗：2,962.66kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'pgtapi.cooov.com:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000200s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000126s ]
+---------------------------------------------------------------
+[ 2021-01-17T08:12:52+08:00 ] 111.7.96.146 GET pgtapi.cooov.com/
+[运行时间：0.022425s] [吞吐率：44.59req/s] [内存消耗：2,965.23kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000166s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000123s ]
+---------------------------------------------------------------
+[ 2021-01-17T08:12:59+08:00 ] 111.7.96.146 GET pgtapi.cooov.com/favicon.ico
+[运行时间：0.012313s] [吞吐率：81.22req/s] [内存消耗：1,553.48kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'favicon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Chrome/54.0 (Windows NT 10.0)',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-17T09:40:12+08:00 ] 47.101.46.78 GET pgtapi.cooov.com/
+[运行时间：0.022545s] [吞吐率：44.36req/s] [内存消耗：2,963.30kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtapi.cooov.com',
+  'user-agent' => 'sogou web spider/4.0(+http://www.sogou.com/;)SogouSpider',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000185s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000123s ]
+---------------------------------------------------------------
+[ 2021-01-17T12:42:31+08:00 ] 47.101.159.221 GET pgtadmin.cooov.com/
+[运行时间：0.022914s] [吞吐率：43.64req/s] [内存消耗：2,961.51kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtadmin.cooov.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000196s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/index%' LIMIT 1 [ RunTime:0.000173s ]
+---------------------------------------------------------------
+[ 2021-01-17T12:56:23+08:00 ] 106.15.180.251 GET pgtapi.cooov.com/
+[运行时间：0.022931s] [吞吐率：43.61req/s] [内存消耗：2,963.30kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtapi.cooov.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000141s ]
+---------------------------------------------------------------
+[ 2021-01-17T22:14:45+08:00 ] 47.101.191.214 GET pgtapi.cooov.com/
+[运行时间：0.055299s] [吞吐率：18.08req/s] [内存消耗：2,963.30kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtapi.cooov.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000183s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.005150s ]

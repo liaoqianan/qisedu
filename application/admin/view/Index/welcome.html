@@ -1,0 +1,94 @@
+{include file="Public/base" /}
+<style>
+    .cardBox{border: 1px solid #eee;border-radius: 7px;box-shadow: 0 2px 7px rgba(0,0,0,.15);display: inline-block; margin-bottom: 10px;}
+    .ibox {clear: both;margin-top: 0;padding: 0;}
+    .ui-sortable .ibox-title{cursor:move}
+    .ibox-content{background-color:#fff;color:inherit;padding:15px 20px 20px;border-color:#e7eaec;-webkit-border-image:none;-o-border-image:none;border-image:none;border-style:solid solid none;border-width:1px 0}
+    .text-navy{color:#0092DC}
+    .stat-percent {float: right;}
+    .font-bold {font-weight: 600;}
+</style>
+<div class="col-sm-3 ui-sortable cardBox">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <span class="label label-danger pull-right">急</span>
+            <h5>订单</h5>
+        </div>
+        <div class="ibox-content">
+            <h1 class="no-margins">{$no_delivery_orders}</h1>
+            <small><a href="{:Url('order/index')}">待发货</a> </small>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 ui-sortable cardBox">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <span class="label label-info pull-right">待</span>
+            <h5>订单</h5>
+        </div>
+        <div class="ibox-content">
+            <h1 class="no-margins">{$refund_orders}</h1>
+            <small><a href="{:Url('order/index')}">退换货</a></small>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 ui-sortable cardBox" >
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <span class="label label-danger pull-right">急</span>
+            <h5>商品</h5>
+        </div>
+        <div class="ibox-content">
+            <h1 class="no-margins">{$stock_goods}</h1>
+            <small><a href="{:Url('goods/index')}">库存预警</a></small>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 ui-sortable cardBox">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <span class="label label-info pull-right">昨</span>
+            <h5>订单</h5>
+        </div>
+        <div class="ibox-content">
+            <h1 class="no-margins">{$yesterday_orders}</h1>
+            <small>昨日订单数</small>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 ui-sortable cardBox">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <span class="label label-info pull-right">昨</span>
+            <h5>交易</h5>
+        </div>
+        <div class="ibox-content">
+            <h1 class="no-margins">{$yesterday_pays}</h1>
+            <small>昨日交易额</small>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 ui-sortable cardBox">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <span class="label label-info pull-right">今</span>
+            <h5>粉丝</h5>
+        </div>
+        <div class="ibox-content">
+            <h1 class="no-margins">{$today_fans}</h1>
+            <small>今日新增粉丝</small>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 ui-sortable cardBox">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <span class="label label-info pull-right">月</span>
+            <h5>粉丝</h5>
+        </div>
+        <div class="ibox-content">
+            <h1 class="no-margins">{$month_fans}</h1>
+            <small>本月新增粉丝</small>
+        </div>
+    </div>
+</div>

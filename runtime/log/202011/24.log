@@ -1,0 +1,727 @@
+---------------------------------------------------------------
+[ 2020-11-24T10:07:19+08:00 ] 127.0.0.1 GET www.pgt.com/admin/Login/index
+[运行时间：1.051049s] [吞吐率：0.95req/s] [内存消耗：1,948.07kb] [文件加载：47]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Login/index' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\pgt\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\pgt\public/../application/admin\view\Login\index.html [ array (
+  0 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-24T10:07:19+08:00 ] 127.0.0.1 GET www.pgt.com/admin/Verification/gt?t=1606183639754
+[运行时间：0.051651s] [吞吐率：19.36req/s] [内存消耗：1,860.84kb] [文件加载：44]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Verification',
+    2 => 'gt',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/Login/index',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/Verification/gt' => '',
+  't' => '1606183639754',
+)
+[ info ] [ RUN ] app\admin\controller\Verification->gt[ D:\pgt\application\admin\controller\Verification.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-24T10:07:19+08:00 ] 127.0.0.1 GET www.pgt.com/favicon.ico
+[运行时间：0.096088s] [吞吐率：10.41req/s] [内存消耗：1,593.63kb] [文件加载：37]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/Login/index',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-24T10:07:22+08:00 ] 127.0.0.1 POST www.pgt.com/admin/login/login
+[运行时间：0.204875s] [吞吐率：4.88req/s] [内存消耗：3,085.45kb] [文件加载：59]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/Login/index',
+  'origin' => 'http://www.pgt.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '191',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login' => '',
+  'username' => 'admin',
+  'password' => '123456',
+  'geetest_challenge' => '32bb90e8976aab5298d5da10fe66f21dd3',
+  'geetest_validate' => '5dfd7753f9b304d9b81ac3f6196f82bb',
+  'geetest_seccode' => '5dfd7753f9b304d9b81ac3f6196f82bb|jordan',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\pgt\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015612s ] mysql:host=localhost;dbname=www.pgt.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.035560s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `username` = 'admin'  AND `password` = '912601e4ad1b308c9ae41877cf6ca754' LIMIT 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] UPDATE `pgt_admin_user`  SET `login_count`=551,`last_ip`='127.0.0.1',`last_login`=1606183642  WHERE  `id` = 1 [ RunTime:0.028480s ]
+---------------------------------------------------------------
+[ 2020-11-24T10:07:24+08:00 ] 127.0.0.1 GET www.pgt.com/admin/index/index
+[运行时间：0.396326s] [吞吐率：2.52req/s] [内存消耗：3,262.27kb] [文件加载：66]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/Login/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\pgt\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\pgt\public/../application/admin\view\Index\index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'list',
+  3 => 'auth_name',
+  4 => 'username',
+  5 => 'nickname',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011296s ] mysql:host=localhost;dbname=www.pgt.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.137579s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/index%' LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.001816s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.024184s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.014426s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.020903s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('首页' , 1 , 'admin' , 1606183644 , 'Index/index' , '{\"\\/admin\\/index\\/index\":\"\"}') [ RunTime:0.022118s ]
+---------------------------------------------------------------
+[ 2020-11-24T10:07:25+08:00 ] 127.0.0.1 GET www.pgt.com/admin/index/welcome
+[运行时间：0.114703s] [吞吐率：8.72req/s] [内存消耗：3,245.30kb] [文件加载：64]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=ov6f3ghubuthlmmr5le8gaoppb',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/welcome' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\pgt\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010829s ] mysql:host=localhost;dbname=www.pgt.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.002024s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/welcome%' LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.001476s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.001338s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('欢迎页' , 1 , 'admin' , 1606183645 , 'Index/welcome' , '{\"\\/admin\\/index\\/welcome\":\"\"}') [ RunTime:0.044206s ]
+---------------------------------------------------------------
+[ 2020-11-24T10:07:29+08:00 ] 127.0.0.1 GET www.pgt.com/admin/banner/index
+[运行时间：0.265546s] [吞吐率：3.77req/s] [内存消耗：3,288.58kb] [文件加载：67]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=ov6f3ghubuthlmmr5le8gaoppb',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/banner/index' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Banner->index[ D:\pgt\application\admin\controller\Banner.php ]
+[ info ] [ VIEW ] D:\pgt\public/../application/admin\view\banner\index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011480s ] mysql:host=localhost;dbname=www.pgt.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.002017s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Banner/index%' LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.002008s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.001993s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.001333s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('轮播图' , 1 , 'admin' , 1606183648 , 'Banner/index' , '{\"\\/admin\\/banner\\/index\":\"\"}') [ RunTime:0.062311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.085043s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC,`create_time` DESC [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2020-11-24T10:07:33+08:00 ] 127.0.0.1 GET www.pgt.com/admin/column/index
+[运行时间：0.138665s] [吞吐率：7.21req/s] [内存消耗：3,281.62kb] [文件加载：67]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'column',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=ov6f3ghubuthlmmr5le8gaoppb',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/column/index' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Column->index[ D:\pgt\application\admin\controller\Column.php ]
+[ info ] [ VIEW ] D:\pgt\public/../application/admin\view\column\index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001881s ] mysql:host=localhost;dbname=www.pgt.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.002094s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Column/index%' LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.002238s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.001318s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('栏目管理' , 1 , 'admin' , 1606183653 , 'Column/index' , '{\"\\/admin\\/column\\/index\":\"\"}') [ RunTime:0.030439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.035547s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2020-11-24T10:07:34+08:00 ] 127.0.0.1 GET www.pgt.com/admin/course/index
+[运行时间：0.135142s] [吞吐率：7.40req/s] [内存消耗：3,306.36kb] [文件加载：68]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=ov6f3ghubuthlmmr5le8gaoppb',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/course/index' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->index[ D:\pgt\application\admin\controller\Course.php ]
+[ info ] [ VIEW ] D:\pgt\public/../application/admin\view\course\index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'column',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010389s ] mysql:host=localhost;dbname=www.pgt.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/index%' LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.001696s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.001263s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('课程列表' , 1 , 'admin' , 1606183654 , 'Course/index' , '{\"\\/admin\\/course\\/index\":\"\"}') [ RunTime:0.040700s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2020-11-24T10:07:34+08:00 ] 127.0.0.1 POST www.pgt.com/admin/course/ajaxgetindex
+[运行时间：0.157979s] [吞吐率：6.33req/s] [内存消耗：3,338.69kb] [文件加载：69]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'ajaxgetindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=ov6f3ghubuthlmmr5le8gaoppb',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/course/index',
+  'origin' => 'http://www.pgt.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '2221',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/course/ajaxgetindex' => '',
+  'draw' => '1',
+  'columns' => 
+  array (
+    0 => 
+    array (
+      'data' => 'id',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    1 => 
+    array (
+      'data' => 'nickname',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    2 => 
+    array (
+      'data' => 'broadcast_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    3 => 
+    array (
+      'data' => 'type',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    4 => 
+    array (
+      'data' => 'purchase_num',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    5 => 
+    array (
+      'data' => 'column',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    6 => 
+    array (
+      'data' => 'original_price',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    7 => 
+    array (
+      'data' => 'present_price',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    8 => 
+    array (
+      'data' => 'create_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    9 => 
+    array (
+      'data' => '',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+  ),
+  'start' => '0',
+  'length' => '20',
+  'search' => 
+  array (
+    'value' => '',
+    'regex' => 'false',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->ajaxGetIndex[ D:\pgt\application\admin\controller\Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010817s ] mysql:host=localhost;dbname=www.pgt.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/ajaxgetindex%' LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.001506s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.002121s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('获取课程数据' , 1 , 'admin' , 1606183654 , 'Course/ajaxgetindex' , '{\"\\/admin\\/course\\/ajaxgetindex\":\"\",\"draw\":\"1\",\"columns\":[{\"data\":\"id\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"nickname\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"broadcast_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"type\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"purchase_num\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"column\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"original_price\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"present_price\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"create_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}],\"start\":\"0\",\"length\":\"20\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}') [ RunTime:0.035731s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.022825s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pgt_course` WHERE  `is_del` = 0 LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course` WHERE  `is_del` = 0 ORDER BY `order` DESC,`create_time` DESC LIMIT 0,20 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.001284s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000787s ]
+---------------------------------------------------------------
+[ 2020-11-24T11:15:59+08:00 ] 127.0.0.1 GET www.pgt.com/admin/index/index
+[运行时间：0.086780s] [吞吐率：11.52req/s] [内存消耗：3,145.61kb] [文件加载：59]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/Login/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007635s ] mysql:host=localhost;dbname=www.pgt.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.012981s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/index%' LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.002248s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2020-11-24T11:15:59+08:00 ] 127.0.0.1 GET www.pgt.com/Login/index
+[运行时间：0.020888s] [吞吐率：47.87req/s] [内存消耗：1,594.50kb] [文件加载：37]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Login',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/Login/index' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-24T11:16:00+08:00 ] 127.0.0.1 GET www.pgt.com/favicon.ico
+[运行时间：0.022277s] [吞吐率：44.89req/s] [内存消耗：1,593.62kb] [文件加载：37]
+[ info ] [ LANG ] D:\pgt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.pgt.com/Login/index',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.pgt.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File

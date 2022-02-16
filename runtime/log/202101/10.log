@@ -1,0 +1,2935 @@
+---------------------------------------------------------------
+[ 2021-01-10T00:20:30+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/login/wxLogin
+[运行时间：0.021323s] [吞吐率：46.90req/s] [内存消耗：2,949.34kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'wxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'content-length' => '56',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '04310IFa1VfDiA0cm4Ha1vzn47310IFt',
+  'refer_id' => 'undefined',
+)
+[ info ] [ RUN ] app\api\controller\Login->wxLogin[ /www/wwwroot/peigongtang/application/api/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000169s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] UPDATE `pgt_user`  SET `last_time`=1610209230,`last_ip`='113.116.105.200'  WHERE  `id` = 6 [ RunTime:0.001330s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:31+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/buildtoken/getAccessToken
+[运行时间：0.012565s] [吞吐率：79.59req/s] [内存消耗：1,844.07kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'buildtoken',
+    2 => 'getAccessToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '89',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'timestamp' => '1610209231',
+  'app_id' => '49789999',
+  'user_id' => '6',
+  'signature' => '643cdb12f7b26f5e9b562b1823757588',
+)
+[ info ] [ RUN ] app\api\controller\Buildtoken->getAccessToken[ /www/wwwroot/peigongtang/application/api/controller/Buildtoken.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-10T00:20:31+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/index
+[运行时间：0.019906s] [吞吐率：50.24req/s] [内存消耗：2,826.11kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'token' => '',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:31+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/index
+[运行时间：0.023157s] [吞吐率：43.18req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000128s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 00:20:31') [ RunTime:0.001268s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:31+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/index
+[运行时间：0.021077s] [吞吐率：47.44req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000130s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 00:20:31') [ RunTime:0.001146s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:35+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/getUserByAuth
+[运行时间：0.020460s] [吞吐率：48.88req/s] [内存消耗：2,993.47kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'getUserByAuth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '1062',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'iv' => 'ZS2RWX95d52iktWswQMA+A==',
+  'rawData' => '{"nickName":"Panda","gender":1,"language":"zh_CN","city":"Shenzhen","province":"Guangdong","country":"China","avatarUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/8j0G0QFK7NMp2Zt1RSa6qplA0FIXZNpWlx00MfA9Qwa49PjicUsus5wibGTIQdHKgJqUJYicqicMOvu9QqIPjM5m4A/132"}',
+  'encryptedData' => 'FSxiHfaxVa9CuWQRJCx7opPRG+oypBJX6hHsglARrelk9P/ntw1uSSua0yjlC4sIaOgQ61XQO4gFrMFVx6gluv+PE3i+OL0Mw5q84fN4XwVzo37BZwAHewmty8GrHqDK4p4o9auO0izgAd5Knb7VCHyhmhgVOyuSp12DmjoW5MamOehkxk6CS7S+x+5VR1t20hBhtXk/2v3P1+8eOOFtBdZl0dKCixDt8r/wcv4AjyjS+Jx9mcs/7eY+Qu3XOSs+txlmhXDme8v3WW0IHt8rx5q4NiJU40FnyFhUeaOSxWpu2vRAcE6tAvoiV6S9nh3bT5L3NA+IOmLrlyUtbNP+ot+Uf29wELfHJ3KDo6kCn4XCE7f8skj3KEeRQrhdBuVS+y5sB/4PgSZWKOSz7avQ7J0QMqTjfgFAU5TBhdMuxuGvseFz+yTBTrmjArwB8u0Ead+ajx9FsSWEiLkJw0Z11erNnC2KJBrYK6dIuuxc+cwSdh6JGK8RDTvhDuc2spbuUXIZuHsEsHs4lngnrjoMG9xzWKrDBwZFjMff+9F0TnA=',
+  'signature' => 'e7609f40f8979a5e85014790853d3d196c9a4b2e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->getUserByAuth[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000172s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000171s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:41+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/getUserByAuth
+[运行时间：0.019957s] [吞吐率：50.11req/s] [内存消耗：2,993.47kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'getUserByAuth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '1046',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'iv' => 'DA1i+RgtEALthvSeR1+tKg==',
+  'rawData' => '{"nickName":"Panda","gender":1,"language":"zh_CN","city":"Shenzhen","province":"Guangdong","country":"China","avatarUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/8j0G0QFK7NMp2Zt1RSa6qplA0FIXZNpWlx00MfA9Qwa49PjicUsus5wibGTIQdHKgJqUJYicqicMOvu9QqIPjM5m4A/132"}',
+  'encryptedData' => 'NiB61kbq3Y6kObMlVC1x195M77+cUcYR+AG3gI7PK6e7WMvYHh4hfmscVA1dtPiRmufSJTLP7hF8Yw6z+QF1ahpYGAoTv0KaEclyhbwpMthZ+lgaJO9BUsT9U7FFhvJw4/LaJDXncglw9TTtXbqBXMUAYvCJBf7bQOzLPKEIHwm/Kqe9OLrl0F7gEgzFfgzn6wQvEzrLt2/Le3ZtFL3f9mUjKC6QmKi0EKyf2LacZ7fKui4zqJNRz5azr/aGy7bxN9dy54S7MhGNpzNeR+2XZq80zHRlcbWodc4EyOTvwMQLFu5fp4bqzFYnFJnGcvapydxxsxzD3iue/YW7OCzAsKL46dZf6k1otok4GqNCCd1O5DenpUlaE7Iz6SzluO9NN9eh2KXPgkghvbVHosee3Fu9zIHpgq0wD7XvL12kTVKaYn0ZZ0QWGZS/AhDPXO1eeVIKNOt2SO5dtv5aBHU1Q2E3tjrgcxVh7tD/ATzoK5nALOcdx3KEmJYUZlB5NHP5FrXKbTjUAtwh10B2QTRgXLimSRYeRk8ogpsvHhW2/HI=',
+  'signature' => 'e7609f40f8979a5e85014790853d3d196c9a4b2e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->getUserByAuth[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000178s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000173s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:41+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/getUserByAuth
+[运行时间：0.019711s] [吞吐率：50.73req/s] [内存消耗：2,993.47kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'getUserByAuth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '1050',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'iv' => 'fT1vXz7iZmjiCGEXCknf3A==',
+  'rawData' => '{"nickName":"Panda","gender":1,"language":"zh_CN","city":"Shenzhen","province":"Guangdong","country":"China","avatarUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/8j0G0QFK7NMp2Zt1RSa6qplA0FIXZNpWlx00MfA9Qwa49PjicUsus5wibGTIQdHKgJqUJYicqicMOvu9QqIPjM5m4A/132"}',
+  'encryptedData' => 'i8XcrS9MzrKLnwJDV5SIidMNFwde/80Cd0pnPz18dBVFqRjvL5IBzYQjBYZipZM1LDVG+6FL5V7B12mlz1EAqcrNl/DyjNmi5F1002CoulnAazAfaSgmkGvS2fSIgV9gLYTP7LBEvaSMHkH3+QqES9Ry80BPlTnq16+K8bjF6JW5Ngjteb5yfQA9L8wCUFbrhTrx0gRqJ+Lv3SVhoN4Rp1CpqXBEy8LcO+UG2BErkiEyskMMJ+M1dWdFgjWCkrUkmJchddtWM6i+XhC2TU+fgW5gj3KCndPwBVsucL8ZgqhmAf8ATLibnJEe1G6T92fUUt091kev/CsUDa4c118bRHkPsRMkU9CrI+6TqnRAYyGGvGjJ3oWNJ+JELgMZmQp48FKQakAWmoGwQYGwQMnSlgNPQ3zfSPuozbAEvwOFAVtX3vj6ICL+dDi5IuUktz5Ao48cZN524JImDafyqmMBKQ0tCeIJkVAVKR1eVbRUPt6ekoV8A0ado/dIPbaX+eMzjLVkS5UKBlvDcylT62A+JTrxSTw4plyl8GDVqtH2R6k=',
+  'signature' => 'e7609f40f8979a5e85014790853d3d196c9a4b2e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->getUserByAuth[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000174s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:42+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/getUserByAuth
+[运行时间：0.020691s] [吞吐率：48.33req/s] [内存消耗：2,993.47kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'getUserByAuth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '1048',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'iv' => 'VUdUSCOZPZz9o9BhYjPGIw==',
+  'rawData' => '{"nickName":"Panda","gender":1,"language":"zh_CN","city":"Shenzhen","province":"Guangdong","country":"China","avatarUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/8j0G0QFK7NMp2Zt1RSa6qplA0FIXZNpWlx00MfA9Qwa49PjicUsus5wibGTIQdHKgJqUJYicqicMOvu9QqIPjM5m4A/132"}',
+  'encryptedData' => 'fw5uWm9pxybQlUVLa4CRUaPTXNWwMzeUt3AC9UGBhpNssSt5cfUiDXcp8k6N15S+8zRGM0FF99h9MnSD6mo5RntxoEMVcEooO0khi/zomMpzjftvTWmhtKElTRF/pu161kHccGGzppVvcIAQz3zJuvYsC0gYaOV2+yjYMCf62ScwQeIdDhFTQuqGf2nHxHgpsMs0gTxGwMHMrcUGhlRamjvwzxj6tWRTLHTA66raiT5k0/RJE/8hHEC3KtAzoHCvf7L4w7sKEMZn5Md4YuvPXOwYDAYxWLoOMGE4tVIDQGHaXf6UY7Fxwk/uncr+5fX73UTA01QwY2pzEWz6tFxEJZ462rztGnxB1UWtcRNMOkkG/iDcao+apWfz5KEePJ1thdTiRYhBhoJWDxderxvsHMWFyhLybRDAWSPES+gZdJzQoV0ih8mIyuxDod70TlQXxtT7ex2/mox/B4Hu5slsdYkPJbO7v+Db9hNzA4dfKSJ6XP7SY/mN9fGwqKnttU3IHmN9sZjeaQ4pZvEbiT8Apc3L+ez8bfXhz0RpAD4tpMg=',
+  'signature' => 'e7609f40f8979a5e85014790853d3d196c9a4b2e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->getUserByAuth[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000193s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000174s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:42+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/getUserByAuth
+[运行时间：0.019829s] [吞吐率：50.43req/s] [内存消耗：2,993.47kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'getUserByAuth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '1044',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'iv' => 'ONlG4sMIlbDTvW7WSFTLqA==',
+  'rawData' => '{"nickName":"Panda","gender":1,"language":"zh_CN","city":"Shenzhen","province":"Guangdong","country":"China","avatarUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/8j0G0QFK7NMp2Zt1RSa6qplA0FIXZNpWlx00MfA9Qwa49PjicUsus5wibGTIQdHKgJqUJYicqicMOvu9QqIPjM5m4A/132"}',
+  'encryptedData' => 'HOn+10JiGeWUpJTv/h3rMOeLkmSzz12cZ0zmdfIrKDPyiLQBVHdQxRYxIIOCq9kmUblf123Ibfqv8/12q4ewGktVRgx3GyY1dHm6L2+IW9Yo9uiVpqleN12QcFrnKGP0DCHhWFqWswbiqc94cy02WB0e1LtTzAUg+pjhGj+YF46KDTroCReAWIvlQx9K2yuctI+tqlyf9CM5Nk6n1fbwx6XXahA3fpkFafGdSMCiHnxd8hjZSDm/faFTYQ0JVaAMkcaA7HtBAtIORgxZ9T3NiSMFuM4zN6NCrfXl66KQflIOJb614J+BfntmlhJEWI3H3v6Pw8BdSwKfCXGIQZnXDuq6lYt9kVT+mdKvMTVFT4SHj422zNXx6UHaCJKi124I6PusmutGP6vWEjbQeWfiP/IBgsYo/QPXaxiLQMHt7ClH1VscsNYc8WdrhcQxnlYNKV11EM5E+/sNp74DfoXuzIcN5YIM2qZPC5qGnHkzzAmpiypnob58ygDlz6BBUhVYN60YCXOUf07d8SQ2BynSpSDD6XyMTYA75dGiC0B98Aw=',
+  'signature' => 'e7609f40f8979a5e85014790853d3d196c9a4b2e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->getUserByAuth[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000171s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000176s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:45+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/index
+[运行时间：0.031182s] [吞吐率：32.07req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000206s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 00:20:45') [ RunTime:0.002628s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:45+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.031557s] [吞吐率：31.69req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000178s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000237s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:20:51+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/getUserByAuth
+[运行时间：0.020006s] [吞吐率：49.99req/s] [内存消耗：2,993.47kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'getUserByAuth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '1046',
+  'token' => '919bbe765db7306cba177a0d7a0a634b',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'iv' => 'yzHuk75r332C4Nru/Xw/Kw==',
+  'rawData' => '{"nickName":"Panda","gender":1,"language":"zh_CN","city":"Shenzhen","province":"Guangdong","country":"China","avatarUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/8j0G0QFK7NMp2Zt1RSa6qplA0FIXZNpWlx00MfA9Qwa49PjicUsus5wibGTIQdHKgJqUJYicqicMOvu9QqIPjM5m4A/132"}',
+  'encryptedData' => 'lOMZoeeLwq8DgsfOncDv93SORlyTIHNKdm8CaNOjh+nMku7wU8ZhrtJWTbXEeiCxof0oOT4T9JheCtVksxwocAbHUZK3FMjeupGkA7EkVXqDOFYKMW4ry/qsIO7rCXIlFXtZlNH1QQXBSxQboAsBtzPo8I0bNE8PQrLAsF6TA8MK/IeBpCG5avsGK1Ufo56i1QwMLtyKppCUTAVlJ6LoBIdmgw5GqYnKZEu6ZBJA1/vdn1g/Hh9IP/0nrVRuct3jgFOHcDRJtAMMw3vECkgD5f4E42Gm1sKV0zsNar2b40BE9uGgbPnvklNZE3cYkluQmnlC6GARds3PNlQ62cw+ONG7NGC+3yFfN1MaNodj2NUCPDev0M1J8vn6xnyI5mUCBEJj1qqzh6Fw6QT7YdIUZYtPCKZj2FLHLX3JXKS1g05EFKsbicMPFtOJRdTuUaAYPhZICGrG2Bzio2PD2gtjeQXW+RIfRqdbaY8TBFGLK/9fF/M+Rncq878IKqvJnExyP8ZjNIAHaqdIwaDIFgDtAuFxgxxao/nkWm6BmC28KcE=',
+  'signature' => 'e7609f40f8979a5e85014790853d3d196c9a4b2e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->getUserByAuth[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000177s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000175s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:21:52+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/login/wxLogin
+[运行时间：0.020719s] [吞吐率：48.26req/s] [内存消耗：2,949.35kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'wxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'content-length' => '56',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043fGk0w3pjgDV2qsd3w3pBKAg4fGk0A',
+  'refer_id' => 'undefined',
+)
+[ info ] [ RUN ] app\api\controller\Login->wxLogin[ /www/wwwroot/peigongtang/application/api/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000173s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] UPDATE `pgt_user`  SET `last_time`=1610209312,`last_ip`='113.116.105.200'  WHERE  `id` = 6 [ RunTime:0.001346s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:21:52+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/buildtoken/getAccessToken
+[运行时间：0.012413s] [吞吐率：80.56req/s] [内存消耗：1,844.07kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'buildtoken',
+    2 => 'getAccessToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '89',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'timestamp' => '1610209312',
+  'app_id' => '49789999',
+  'user_id' => '6',
+  'signature' => '980e5c00566fa8178692fa3156e02928',
+)
+[ info ] [ RUN ] app\api\controller\Buildtoken->getAccessToken[ /www/wwwroot/peigongtang/application/api/controller/Buildtoken.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-10T00:21:53+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/index
+[运行时间：0.018662s] [吞吐率：53.58req/s] [内存消耗：2,826.11kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'token' => '',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000147s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:21:53+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/index
+[运行时间：0.018177s] [吞吐率：55.01req/s] [内存消耗：2,826.11kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'token' => '',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000135s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000192s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:21:53+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/index
+[运行时间：0.021738s] [吞吐率：46.00req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'token' => 'e9509b317e50067c00733a77d4e3f557',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000129s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 00:21:53') [ RunTime:0.001988s ]
+---------------------------------------------------------------
+[ 2021-01-10T00:22:00+08:00 ] 113.116.105.200 POST pgtapi.cooov.com/my/getUserByAuth
+[运行时间：0.019806s] [吞吐率：50.49req/s] [内存消耗：2,993.47kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'getUserByAuth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/WIFI Language/zh_CN',
+  'content-length' => '1064',
+  'token' => 'e9509b317e50067c00733a77d4e3f557',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'iv' => 'ZfPdPb1E2t0QqkvJ9RkQrw==',
+  'rawData' => '{"nickName":"Panda","gender":1,"language":"zh_CN","city":"Shenzhen","province":"Guangdong","country":"China","avatarUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/8j0G0QFK7NMp2Zt1RSa6qplA0FIXZNpWlx00MfA9Qwa49PjicUsus5wibGTIQdHKgJqUJYicqicMOvu9QqIPjM5m4A/132"}',
+  'encryptedData' => 'MnqmPghQ2L1YTpwb5wErfNq7nlMdiNoRT4LdO5iYbE471qOhZjPWTHGBww4VTBrMEzqhtcqmfkKl2xQc8xnnN/Sa/Vbw7jWPBq6pojc39jIwhnI+apeXoxF+NH7cMZIHdAcB+JdL2JanE8YVvfK9szeuSuQlDWFyfbaUe/1DUK4px819mrVNzJHDkhXghIkdzcHByVj2z7YNgPRHoB7T1aaLTxKIRXQeGoE/JzVsw97mn2zRlAoeZyjKvG5xbetSPSkcUPzs/sqP3njRYdavmYrtirIEw5cotR2+uFU9CN/qZG1aacHlw37CHXX0ox+Q317eVh7cMpu1kuTLVm6GQ2yrVOFMTh38/FupQxrHidocPhZwkQ6MdlX//6mWlKJWUCUg98y6udaxj5rCp2DQfplEJ56hxKvWIempt8S6svVRDPacly3/ow0+g15wYzID/2+qULI8kt22yzUtHyeZo+tnPb6jPG+NZo0EIJOgSfVk5IEzd0YNA+Kh/D1s7k4YjVam/uvQf0AQdFMGEPOn/ZjiBT2WXH10tEZUrxTXano=',
+  'signature' => '4746c44bf7cd72087b305622e204226776ce766e',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->getUserByAuth[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:17+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/login/wxLogin
+[运行时间：0.047418s] [吞吐率：21.09req/s] [内存消耗：2,949.85kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'wxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'content-length' => '56',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0437Da0w3xwSDV2iDm3w3kuP3c47Da06',
+  'refer_id' => 'undefined',
+)
+[ info ] [ RUN ] app\api\controller\Login->wxLogin[ /www/wwwroot/peigongtang/application/api/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000218s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] UPDATE `pgt_user`  SET `last_time`=1610232977,`last_ip`='113.92.166.121'  WHERE  `id` = 6 [ RunTime:0.003480s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:17+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/buildtoken/getAccessToken
+[运行时间：0.013928s] [吞吐率：71.80req/s] [内存消耗：1,844.57kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'buildtoken',
+    2 => 'getAccessToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'content-length' => '89',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'timestamp' => '1610232980',
+  'app_id' => '49789999',
+  'user_id' => '6',
+  'signature' => '1f5045175554398d1d644a9df549be82',
+)
+[ info ] [ RUN ] app\api\controller\Buildtoken->getAccessToken[ /www/wwwroot/peigongtang/application/api/controller/Buildtoken.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-10T06:56:17+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/my/index
+[运行时间：0.018521s] [吞吐率：53.99req/s] [内存消耗：2,826.73kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000186s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:17+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.019933s] [吞吐率：50.17req/s] [内存消耗：3,084.59kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000167s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:17+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/my/index
+[运行时间：0.021528s] [吞吐率：46.45req/s] [内存消耗：2,948.88kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '364191fedc4f25c5af434a6c26a7f813',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000153s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 06:56:17') [ RunTime:0.001216s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:17+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/my/index
+[运行时间：0.021379s] [吞吐率：46.77req/s] [内存消耗：2,948.88kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '364191fedc4f25c5af434a6c26a7f813',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000144s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 06:56:17') [ RunTime:0.001173s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:17+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.022235s] [吞吐率：44.97req/s] [内存消耗：3,185.70kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '364191fedc4f25c5af434a6c26a7f813',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000145s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:20+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/Calendar/calendar_details
+[运行时间：0.021560s] [吞吐率：46.38req/s] [内存消耗：3,194.77kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'calendar_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '364191fedc4f25c5af434a6c26a7f813',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '6',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '109',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->calendar_details[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000207s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 109  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000163s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:29+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/Calendar/liunian_see
+[运行时间：0.025443s] [吞吐率：39.30req/s] [内存消耗：3,217.38kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'liunian_see',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '364191fedc4f25c5af434a6c26a7f813',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '70',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '109',
+  'liunian' => '庚子',
+  'year' => '2020',
+  'xiaoyun' => '乙未',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->liunian_see[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000193s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 109  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT `yue` FROM `pgt_calendar` WHERE  `solar_year` = '2020'  AND `solar_month` = '02'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_canggan` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_canggan` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_canggan` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_t_guanxi` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT `name`,`content` FROM `pgt_t_guanxi` WHERE  `code` IN ('2-2','2-3','2-4','2-7','2-8','3-4','3-7','3-8','4-7','4-8','7-8') ORDER BY `grade` [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_d_guanxi` [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT `name`,`content` FROM `pgt_d_guanxi` WHERE  `code` IN ('1-1','1-6','1-8','1-10','1-12','6-8','6-10','6-12','8-10','8-12','10-12','1-1-6','1-1-8','1-1-10','1-1-12','1-6-8','1-6-10','1-6-12','1-8-10','1-8-12','1-10-12','6-8-10','6-8-12','6-10-12','8-10-12') ORDER BY `grade` [ RunTime:0.000191s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:30+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/Calendar/liunian_see
+[运行时间：0.025440s] [吞吐率：39.31req/s] [内存消耗：3,222.86kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'liunian_see',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '364191fedc4f25c5af434a6c26a7f813',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '70',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '109',
+  'liunian' => '辛丑',
+  'year' => '2021',
+  'xiaoyun' => '乙未',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->liunian_see[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000191s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 109  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT `yue` FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '02'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_canggan` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_canggan` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_canggan` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_t_guanxi` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT `name`,`content` FROM `pgt_t_guanxi` WHERE  `code` IN ('2-2','2-3','2-4','2-8','3-4','3-8','4-8','8-8') ORDER BY `grade` [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_d_guanxi` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT `name`,`content` FROM `pgt_d_guanxi` WHERE  `code` IN ('1-2','1-6','1-8','1-10','2-8','2-10','2-12','6-8','6-12','8-10','8-12','10-12','1-2-6','1-2-8','1-2-10','1-2-12','1-6-8','1-6-10','1-6-12','1-8-10','1-8-12','1-10-12','2-6-8','2-6-10','2-6-12','2-8-10','2-8-12','2-10-12','6-8-10','6-8-12','6-10-12','8-10-12') ORDER BY `grade` [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:34+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/my/index
+[运行时间：0.025114s] [吞吐率：39.82req/s] [内存消耗：2,948.88kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '364191fedc4f25c5af434a6c26a7f813',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 06:56:34') [ RunTime:0.001933s ]
+---------------------------------------------------------------
+[ 2021-01-10T06:56:34+08:00 ] 113.92.166.121 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.025414s] [吞吐率：39.35req/s] [内存消耗：3,185.70kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'token' => '364191fedc4f25c5af434a6c26a7f813',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/5463 MicroMessenger/7.0.22.1820(0x270016A2) Process/appbrand0 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android',
+  'charset' => 'utf-8',
+  'uid' => '6',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000145s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:19+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/login/wxLogin
+[运行时间：0.119527s] [吞吐率：8.37req/s] [内存消耗：2,949.35kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'wxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'content-length' => '56',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003esNkl2Pj9j64yO7ll2ok9W02esNk9',
+  'refer_id' => 'undefined',
+)
+[ info ] [ RUN ] app\api\controller\Login->wxLogin[ /www/wwwroot/peigongtang/application/api/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000185s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] UPDATE `pgt_user`  SET `last_time`=1610245939,`last_ip`='14.26.77.159'  WHERE  `id` = 6 [ RunTime:0.087675s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:19+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.062150s] [吞吐率：16.09req/s] [内存消耗：3,083.97kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000194s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:19+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.055283s] [吞吐率：18.09req/s] [内存消耗：2,826.11kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010320s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.001951s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001103s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:19+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.069644s] [吞吐率：14.36req/s] [内存消耗：2,826.11kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014723s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:19+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/buildtoken/getAccessToken
+[运行时间：0.070551s] [吞吐率：14.17req/s] [内存消耗：1,844.07kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'buildtoken',
+    2 => 'getAccessToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '89',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'timestamp' => '1610245939',
+  'app_id' => '49789999',
+  'user_id' => '6',
+  'signature' => 'ce29c068d8b7aaf664294f25d625d3f6',
+)
+[ info ] [ RUN ] app\api\controller\Buildtoken->getAccessToken[ /www/wwwroot/peigongtang/application/api/controller/Buildtoken.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-10T10:32:19+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.053238s] [吞吐率：18.78req/s] [内存消耗：3,083.97kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003546s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:19+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.027238s] [吞吐率：36.71req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000168s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:32:19') [ RunTime:0.006133s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:34+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.023134s] [吞吐率：43.23req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000205s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:32:34') [ RunTime:0.002081s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:34+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.031580s] [吞吐率：31.67req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000150s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.002856s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:36+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/calendar_details
+[运行时间：0.021488s] [吞吐率：46.54req/s] [内存消耗：3,194.03kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'calendar_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '6',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '103',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->calendar_details[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000194s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 103  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000162s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:38+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.031842s] [吞吐率：31.41req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000275s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:32:38') [ RunTime:0.001281s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:38+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.031819s] [吞吐率：31.43req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000180s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:38+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.022851s] [吞吐率：43.76req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000194s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:41+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/calendar_details
+[运行时间：0.021658s] [吞吐率：46.17req/s] [内存消耗：3,194.02kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'calendar_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '6',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '109',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->calendar_details[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000184s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 109  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000163s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:43+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.027702s] [吞吐率：36.10req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000183s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:32:43') [ RunTime:0.006162s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:43+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.023489s] [吞吐率：42.57req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000154s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:43+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/calendar_details
+[运行时间：0.021653s] [吞吐率：46.18req/s] [内存消耗：3,195.03kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'calendar_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '6',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '140',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->calendar_details[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000197s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 140  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000163s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:44+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.030385s] [吞吐率：32.91req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000275s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:32:44') [ RunTime:0.001389s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:44+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.030922s] [吞吐率：32.34req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000148s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:47+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.031683s] [吞吐率：31.56req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000235s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:32:47') [ RunTime:0.001655s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:47+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.035635s] [吞吐率：28.06req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000172s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.002118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:48+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/calendar_details
+[运行时间：0.021259s] [吞吐率：47.04req/s] [内存消耗：3,194.03kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'calendar_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '6',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '103',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->calendar_details[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000201s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 103  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000162s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:53+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.032265s] [吞吐率：30.99req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000252s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:32:53') [ RunTime:0.001502s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:53+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.034409s] [吞吐率：29.06req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000155s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.001532s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:53+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.023312s] [吞吐率：42.90req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000190s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:58+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/calendar_details
+[运行时间：0.021816s] [吞吐率：45.84req/s] [内存消耗：3,194.02kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'calendar_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '6',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '109',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->calendar_details[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000180s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 109  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000173s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:59+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.033564s] [吞吐率：29.79req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:32:59') [ RunTime:0.002119s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:59+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.034818s] [吞吐率：28.72req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000171s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.002019s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:32:59+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/calendar_details
+[运行时间：0.021387s] [吞吐率：46.76req/s] [内存消耗：3,194.03kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'calendar_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '6',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '103',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->calendar_details[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000180s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 103  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000164s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:01+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.031324s] [吞吐率：31.92req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000205s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:33:01') [ RunTime:0.001396s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:01+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.033186s] [吞吐率：30.13req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000156s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:01+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/calendar_details
+[运行时间：0.021807s] [吞吐率：45.86req/s] [内存消耗：3,195.03kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'calendar_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '6',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '140',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->calendar_details[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000187s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_calendar` WHERE  `id` = 140  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:03+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.033282s] [吞吐率：30.05req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:33:03') [ RunTime:0.001585s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:03+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.036217s] [吞吐率：27.61req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000154s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.003430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:05+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/login/wxLogin
+[运行时间：0.020766s] [吞吐率：48.16req/s] [内存消耗：2,949.35kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'wxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'content-length' => '56',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0139vNkl2um9j64EJ3ml25097e19vNkS',
+  'refer_id' => 'undefined',
+)
+[ info ] [ RUN ] app\api\controller\Login->wxLogin[ /www/wwwroot/peigongtang/application/api/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000184s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] UPDATE `pgt_user`  SET `last_time`=1610245985,`last_ip`='14.26.77.159'  WHERE  `id` = 6 [ RunTime:0.001303s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:05+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/buildtoken/getAccessToken
+[运行时间：0.012953s] [吞吐率：77.20req/s] [内存消耗：1,844.07kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'buildtoken',
+    2 => 'getAccessToken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'content-length' => '89',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'timestamp' => '1610245985',
+  'app_id' => '49789999',
+  'user_id' => '6',
+  'signature' => '090665e0b79d17f8bbe42ac616f0cdde',
+)
+[ info ] [ RUN ] app\api\controller\Buildtoken->getAccessToken[ /www/wwwroot/peigongtang/application/api/controller/Buildtoken.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-10T10:33:05+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.027276s] [吞吐率：36.66req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000167s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.002645s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:33:05') [ RunTime:0.001296s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:05+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.023459s] [吞吐率：42.63req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000137s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:05+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.027389s] [吞吐率：36.51req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000231s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:33:05') [ RunTime:0.001258s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:05+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/Calendar/index
+[运行时间：0.028831s] [吞吐率：34.68req/s] [内存消耗：3,185.20kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Calendar',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '7f34d3082b38341abd6ac06155f7e1a8',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\Calendar->index[ /www/wwwroot/peigongtang/application/api/controller/Calendar.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000121s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_calendar` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_calendar` WHERE  `solar_year` = '2021'  AND `solar_month` = '01'  AND `solar_day` = '10' LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_calendar` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`G_calendar`,`sex` FROM `pgt_user_calendar` WHERE  `is_del` = 0  AND `uid` = 6 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2021-01-10T10:33:05+08:00 ] 14.26.77.159 POST pgtapi.cooov.com/my/index
+[运行时间：0.021105s] [吞吐率：47.38req/s] [内存消耗：2,948.38kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd01c53b5b22439cc/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.20(0x1700142a) NetType/4G Language/zh_CN',
+  'content-length' => '0',
+  'token' => '25c4381689cafab65f24a1ee268360d2',
+  'platform' => 'routine',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate, br',
+  'uid' => '6',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000118s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_get_code` [ RunTime:0.000373s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_get_code` (`code` , `time`) VALUES ('1' , '2021-01-10 10:33:05') [ RunTime:0.001207s ]
+---------------------------------------------------------------
+[ 2021-01-10T11:41:34+08:00 ] 106.15.202.168 GET pgtapi.cooov.com/
+[运行时间：0.023251s] [吞吐率：43.01req/s] [内存消耗：2,925.16kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtapi.cooov.com',
+  'user-agent' => 'sogou web spider/4.0(+http://www.sogou.com/;)SogouSpider',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000117s ]
+---------------------------------------------------------------
+[ 2021-01-10T18:22:59+08:00 ] 209.17.97.58 GET pgtadmin.cooov.com/
+[运行时间：0.024657s] [吞吐率：40.56req/s] [内存消耗：2,950.06kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000216s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/index%' LIMIT 1 [ RunTime:0.001307s ]
+---------------------------------------------------------------
+[ 2021-01-10T19:40:18+08:00 ] 47.101.197.193 GET pgtapi.cooov.com/
+[运行时间：0.045006s] [吞吐率：22.22req/s] [内存消耗：2,925.16kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtapi.cooov.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000197s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.003911s ]
+---------------------------------------------------------------
+[ 2021-01-10T19:53:21+08:00 ] 47.101.60.230 GET pgtadmin.cooov.com/
+[运行时间：0.019576s] [吞吐率：51.08req/s] [内存消耗：2,950.27kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtadmin.cooov.com',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/index%' LIMIT 1 [ RunTime:0.000166s ]
+---------------------------------------------------------------
+[ 2021-01-10T19:53:23+08:00 ] 47.101.60.230 GET pgtadmin.cooov.com/Login/index
+[运行时间：0.015906s] [吞吐率：62.87req/s] [内存消耗：1,854.96kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtadmin.cooov.com',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/peigongtang/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Login/index.html [ array (
+  0 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,1242 @@
+---------------------------------------------------------------
+[ 2021-01-16T08:31:18+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/index/share
+[运行时间：0.040906s] [吞吐率：24.45req/s] [内存消耗：1,810.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:18+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/index/index
+[运行时间：0.052256s] [吞吐率：19.14req/s] [内存消耗：2,969.20kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000192s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000133s ]
+---------------------------------------------------------------
+[ 2021-01-16T08:31:18+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/index
+[运行时间：0.029124s] [吞吐率：34.34req/s] [内存消耗：2,968.76kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '0',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000185s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000126s ]
+---------------------------------------------------------------
+[ 2021-01-16T08:31:18+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/my/index
+[运行时间：0.013213s] [吞吐率：75.68req/s] [内存消耗：1,821.96kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:19+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/my/index
+[运行时间：0.022764s] [吞吐率：43.93req/s] [内存消耗：3,004.05kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '0',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->index[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `nickname`,`mobile`,`headimg`,`money`,`point`,`user_lv`,`vip_begtime`,`vip_endtime` FROM `pgt_user` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2021-01-16T08:31:19+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/share
+[运行时间：0.523738s] [吞吐率：1.91req/s] [内存消耗：1,850.52kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '34',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://pgt.cooov.com/',
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:25+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/index/share
+[运行时间：0.012482s] [吞吐率：80.12req/s] [内存消耗：1,810.78kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/user/user',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:25+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/share
+[运行时间：0.012672s] [吞吐率：78.91req/s] [内存消耗：1,834.30kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/user/user',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '53',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://pgt.cooov.com/pages/user/user',
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:26+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/share
+[运行时间：0.017347s] [吞吐率：57.65req/s] [内存消耗：1,834.31kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/learn/learn',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '55',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://pgt.cooov.com/pages/learn/learn',
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:26+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/my/study
+[运行时间：0.016784s] [吞吐率：59.58req/s] [内存消耗：1,822.09kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'study',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/learn/learn',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:26+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/my/study
+[运行时间：0.021821s] [吞吐率：45.83req/s] [内存消耗：3,017.45kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'my',
+    2 => 'study',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/learn/learn',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '5',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'time' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\My->study[ /www/wwwroot/peigongtang/application/api/controller/My.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_course` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `course_id` FROM `pgt_user_course` WHERE  `is_del` = 0  AND `user_id` = 43 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`broadcast_time`,`teacher`,`type` FROM `pgt_course_node` WHERE  `course_id` IN (1)  AND `is_del` = 0  AND `type` = 1 OR `type` = 2 ORDER BY `broadcast_time` [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `id` IN (1) ORDER BY `order` DESC [ RunTime:0.000127s ]
+---------------------------------------------------------------
+[ 2021-01-16T08:31:28+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/share
+[运行时间：0.019085s] [吞吐率：52.40req/s] [内存消耗：1,834.34kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/discover/discover',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '61',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://pgt.cooov.com/pages/discover/discover',
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:28+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/Article/index
+[运行时间：0.024664s] [吞吐率：40.55req/s] [内存消耗：2,584.51kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/discover/discover',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Article->index[ /www/wwwroot/peigongtang/application/api/controller/Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000196s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`title`,`brief`,`like`,`comment` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2021-01-16T08:31:28+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/Article/index
+[运行时间：0.017286s] [吞吐率：57.85req/s] [内存消耗：2,584.07kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/discover/discover',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '0',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Article->index[ /www/wwwroot/peigongtang/application/api/controller/Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000195s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`title`,`brief`,`like`,`comment` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2021-01-16T08:31:33+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/index/share
+[运行时间：0.019347s] [吞吐率：51.69req/s] [内存消耗：1,811.03kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:33+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/index/activityDetails
+[运行时间：0.019347s] [吞吐率：51.69req/s] [内存消耗：1,811.12kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'activityDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->activityDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:33+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/share
+[运行时间：0.018708s] [吞吐率：53.45req/s] [内存消耗：1,834.34kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '70',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:33+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/activityDetails
+[运行时间：0.029330s] [吞吐率：34.09req/s] [内存消耗：2,913.51kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'activityDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '4',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->activityDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_activity` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_activity` WHERE  `is_del` = 0  AND `id` = 1 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] UPDATE `pgt_activity`  SET `hits`=`hits`+1  WHERE  `id` = 1 [ RunTime:0.002721s ]
+---------------------------------------------------------------
+[ 2021-01-16T08:31:43+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/index/share
+[运行时间：0.018505s] [吞吐率：54.04req/s] [内存消耗：1,811.03kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:43+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/index/activityDetails
+[运行时间：0.018280s] [吞吐率：54.70req/s] [内存消耗：1,811.12kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'activityDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->activityDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:43+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/share
+[运行时间：0.018770s] [吞吐率：53.28req/s] [内存消耗：1,834.34kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '70',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:43+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/activityDetails
+[运行时间：0.026946s] [吞吐率：37.11req/s] [内存消耗：2,913.51kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'activityDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '4',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->activityDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000189s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_activity` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_activity` WHERE  `is_del` = 0  AND `id` = 1 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] UPDATE `pgt_activity`  SET `hits`=`hits`+1  WHERE  `id` = 1 [ RunTime:0.001283s ]
+---------------------------------------------------------------
+[ 2021-01-16T08:31:45+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/share
+[运行时间：0.013752s] [吞吐率：72.72req/s] [内存消耗：1,834.34kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=2',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '70',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://pgt.cooov.com/pages/activity/activity?id=2',
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:45+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/activityDetails
+[运行时间：0.022062s] [吞吐率：45.33req/s] [内存消耗：2,913.76kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'activityDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=2',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '4',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Index->activityDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000206s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_activity` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_activity` WHERE  `is_del` = 0  AND `id` = 2 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] UPDATE `pgt_activity`  SET `hits`=`hits`+1  WHERE  `id` = 2 [ RunTime:0.001353s ]
+---------------------------------------------------------------
+[ 2021-01-16T08:31:52+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/index/activityDetails
+[运行时间：0.018850s] [吞吐率：53.05req/s] [内存消耗：1,811.12kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'activityDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->activityDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:52+08:00 ] 113.91.141.91 OPTIONS pgtapi.cooov.com/index/share
+[运行时间：0.018663s] [吞吐率：53.58req/s] [内存消耗：1,811.03kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'platform,token,uid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'origin' => 'https://pgt.cooov.com',
+  'access-control-request-method' => 'POST',
+  'host' => 'pgtapi.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:52+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/share
+[运行时间：0.019275s] [吞吐率：51.88req/s] [内存消耗：1,834.34kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'share',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '70',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+)
+[ info ] [ RUN ] app\api\controller\Index->share[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:31:52+08:00 ] 113.91.141.91 POST pgtapi.cooov.com/index/activityDetails
+[运行时间：0.028152s] [吞吐率：35.52req/s] [内存消耗：2,913.51kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'activityDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://pgt.cooov.com/pages/activity/activity?id=1',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-site',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'token' => '4dec32c6c487b6e1f48b6407f1ac90b4',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; HD1900 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2757 MMWEBSDK/201101 Mobile Safari/537.36 MMWEBID/409 MicroMessenger/7.0.21.1800(0x270015B6) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'platform' => 'mobile',
+  'uid' => '43',
+  'origin' => 'https://pgt.cooov.com',
+  'content-length' => '4',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->activityDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_activity` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_activity` WHERE  `is_del` = 0  AND `id` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] UPDATE `pgt_activity`  SET `hits`=`hits`+1  WHERE  `id` = 1 [ RunTime:0.001322s ]
+---------------------------------------------------------------
+[ 2021-01-16T16:48:17+08:00 ] 47.101.53.251 GET pgtadmin.cooov.com/
+[运行时间：0.043874s] [吞吐率：22.79req/s] [内存消耗：2,961.51kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtadmin.cooov.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/index%' LIMIT 1 [ RunTime:0.000181s ]
+---------------------------------------------------------------
+[ 2021-01-16T17:55:15+08:00 ] 47.92.100.7 GET pgtapi.cooov.com/
+[运行时间：0.034977s] [吞吐率：28.59req/s] [内存消耗：2,963.30kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pgtapi.cooov.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000201s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.002665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000131s ]
+---------------------------------------------------------------
+[ 2021-01-16T18:03:26+08:00 ] 18.191.141.59 GET pgtapi.cooov.com/
+[运行时间：0.023039s] [吞吐率：43.40req/s] [内存消耗：2,965.27kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'pgtapi.cooov.com',
+  'accept-language' => 'en-US,en;q=0.9,es;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.1; bit.ly/2W6Px8S) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000203s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_banner` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `id`,`pic`,`url` FROM `pgt_banner` WHERE  `is_del` = 0 ORDER BY `order` DESC [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`brief` FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 1 ORDER BY `order` DESC [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 2 ORDER BY `order` DESC [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`original_price`,`present_price`,`type` FROM `pgt_course` WHERE  `is_del` = 0  AND `column_id` = 3 ORDER BY `order` DESC [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_article` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`pic`,`brief`,`create_time`,`comment`,`like` FROM `pgt_article` WHERE  `is_del` = 0 ORDER BY `order` DESC LIMIT 0,2 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_config` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT `content` FROM `pgt_config` WHERE  `type` = 'about_us' LIMIT 1 [ RunTime:0.000126s ]
+---------------------------------------------------------------
+[ 2021-01-16T18:09:24+08:00 ] 3.216.132.106 GET pgtadmin.cooov.com/
+[运行时间：0.019923s] [吞吐率：50.19req/s] [内存消耗：2,963.60kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'pgtadmin.cooov.com',
+  'accept-language' => 'en-US,en;q=0.9,es;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.1; bit.ly/2W6Px8S) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000184s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/index%' LIMIT 1 [ RunTime:0.000162s ]
+---------------------------------------------------------------
+[ 2021-01-16T18:09:25+08:00 ] 3.216.132.106 GET pgtadmin.cooov.com/robots.txt
+[运行时间：0.020411s] [吞吐率：48.99req/s] [内存消耗：1,551.96kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'robots',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'pgtadmin.cooov.com',
+  'accept-language' => 'en-US,en;q=0.9,es;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.1; bit.ly/2W6Px8S) Chrome/84.0.4147.105 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,2423 @@
+---------------------------------------------------------------
+[ 2020-12-29T17:47:01+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node_edit?id=3
+[运行时间：0.030105s] [吞吐率：33.22req/s] [内存消耗：3,250.41kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/add.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'detail',
+  3 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000185s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235221 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"3\"}') [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000111s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:26+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node_edit?id=4
+[运行时间：0.029768s] [吞吐率：33.59req/s] [内存消耗：3,249.78kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/add.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'detail',
+  3 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000183s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235246 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"4\"}') [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000112s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:30+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/course_node_edit
+[运行时间：0.029330s] [吞吐率：34.10req/s] [内存消耗：3,179.18kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node_edit?id=4',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '350',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'title' => '测试标题',
+  'file' => '',
+  'pic' => 'https://pgtcnd.cooov.com/uplaod/image/20201222/cfd49107aae455a93020ba189d472cf0ac753e03.png',
+  'course_id' => '1',
+  'type' => '2',
+  'is_gratis' => '1',
+  'broadcast_time' => '2020-12-26 00:00:00',
+  'watch_time' => '123',
+  'parameter' => 'aa779f36eb15486ba6be3922b2354e7b',
+  'teacher' => '',
+  'order' => '1',
+  'brief' => '123',
+  'details' => '<p>123123</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235250 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"4\",\"title\":\"\\u6d4b\\u8bd5\\u6807\\u9898\",\"file\":\"\",\"pic\":\"https:\\/\\/pgtcnd.cooov.com\\/uplaod\\/image\\/20201222\\/cfd49107aae455a93020ba189d472cf0ac753e03.png\",\"course_id\":\"1\",\"type\":\"2\",\"is_gratis\":\"1\",\"broadcast_time\":\"2020-12-26 00:00:00\",\"watch_time\":\"123\",\"parameter\":\"aa779f36eb15486ba6be3922b2354e7b\",\"teacher\":\"\",\"order\":\"1\",\"brief\":\"123\",\"details\":\"<p>123123<\\/p>\"}') [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] UPDATE `pgt_course_node`  SET `title`='测试标题',`pic`='https://pgtcnd.cooov.com/uplaod/image/20201222/cfd49107aae455a93020ba189d472cf0ac753e03.png',`course_id`=1,`type`=2,`is_gratis`=1,`broadcast_time`=1608912000,`watch_time`=123,`parameter`='aa779f36eb15486ba6be3922b2354e7b',`teacher`='',`order`=1,`brief`='123',`details`='<p>123123</p>',`update_time`=1609235250  WHERE  `id` = 4 [ RunTime:0.001227s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:30+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node
+[运行时间：0.028403s] [吞吐率：35.21req/s] [内存消耗：3,212.52kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000173s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node%' LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('课节列表' , 1 , 'admin' , 1609235250 , 'Course/course_node' , '{\"s\":\"\\/course\\/course_node\"}') [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT `id`,title as title FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000117s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:30+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/ajaxgetcourse_node
+[运行时间：0.030089s] [吞吐率：33.23req/s] [内存消耗：3,232.80kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'ajaxgetcourse_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '1564',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'draw' => '1',
+  'columns' => 
+  array (
+    0 => 
+    array (
+      'data' => 'id',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    1 => 
+    array (
+      'data' => 'title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    2 => 
+    array (
+      'data' => 'broadcast_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    3 => 
+    array (
+      'data' => 'type',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    4 => 
+    array (
+      'data' => 'course_title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    5 => 
+    array (
+      'data' => 'create_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    6 => 
+    array (
+      'data' => '',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+  ),
+  'start' => '0',
+  'length' => '20',
+  'search' => 
+  array (
+    'value' => '',
+    'regex' => 'false',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->ajaxGetCourse_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/ajaxgetcourse_node%' LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('ajax获取课节数据' , 1 , 'admin' , 1609235250 , 'Course/ajaxgetcourse_node' , '{\"s\":\"\\/course\\/ajaxgetcourse_node\",\"draw\":\"1\",\"columns\":[{\"data\":\"id\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"broadcast_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"type\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"course_title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"create_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}],\"start\":\"0\",\"length\":\"20\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}') [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pgt_course_node` WHERE  `is_del` = 0 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0 ORDER BY `order` DESC,`create_time` DESC LIMIT 0,20 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000100s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000091s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000096s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:36+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/index
+[运行时间：0.028342s] [吞吐率：35.28req/s] [内存消耗：3,209.74kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->index[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course/index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'column',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/index%' LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000434s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('课程列表' , 1 , 'admin' , 1609235256 , 'Course/index' , '{\"s\":\"\\/course\\/index\"}') [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000115s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:36+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/ajaxgetindex
+[运行时间：0.029539s] [吞吐率：33.85req/s] [内存消耗：3,230.17kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'ajaxgetindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/index',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '2218',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'draw' => '1',
+  'columns' => 
+  array (
+    0 => 
+    array (
+      'data' => 'id',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    1 => 
+    array (
+      'data' => 'title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    2 => 
+    array (
+      'data' => 'broadcast_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    3 => 
+    array (
+      'data' => 'type',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    4 => 
+    array (
+      'data' => 'purchase_num',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    5 => 
+    array (
+      'data' => 'column',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    6 => 
+    array (
+      'data' => 'original_price',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    7 => 
+    array (
+      'data' => 'present_price',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    8 => 
+    array (
+      'data' => 'create_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    9 => 
+    array (
+      'data' => '',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+  ),
+  'start' => '0',
+  'length' => '20',
+  'search' => 
+  array (
+    'value' => '',
+    'regex' => 'false',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->ajaxGetIndex[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000145s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/ajaxgetindex%' LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('获取课程数据' , 1 , 'admin' , 1609235256 , 'Course/ajaxgetindex' , '{\"s\":\"\\/course\\/ajaxgetindex\",\"draw\":\"1\",\"columns\":[{\"data\":\"id\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"broadcast_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"type\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"purchase_num\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"column\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"original_price\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"present_price\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"create_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}],\"start\":\"0\",\"length\":\"20\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}') [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pgt_course` WHERE  `is_del` = 0 LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course` WHERE  `is_del` = 0 ORDER BY `order` DESC,`create_time` DESC LIMIT 0,20 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_column` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000100s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:41+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/edit?id=1
+[运行时间：0.029399s] [吞吐率：34.01req/s] [内存消耗：3,243.47kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course/add.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'detail',
+  3 => 'column',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000177s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/edit%' LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000409s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235261 , 'Course/edit' , '{\"s\":\"\\/course\\/edit\",\"id\":\"1\"}') [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_column` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_column` WHERE  `is_del` = 0 [ RunTime:0.000109s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:49+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node_edit?id=6
+[运行时间：0.029352s] [吞吐率：34.07req/s] [内存消耗：3,250.02kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/add.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'detail',
+  3 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000180s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235269 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"6\"}') [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000113s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:56+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/course_node_edit
+[运行时间：0.029251s] [吞吐率：34.19req/s] [内存消耗：3,179.73kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node_edit?id=6',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '410',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'title' => '测试视频',
+  'file' => '',
+  'pic' => 'https://pgtcnd.cooov.com/uplaod/image/20201229/583c71378b059c9b78e00057566d0b68b937e13d.jpg',
+  'course_id' => '2',
+  'type' => '3',
+  'is_gratis' => '1',
+  'broadcast_time' => '1970-01-01 08:00:00',
+  'watch_time' => '',
+  'parameter' => 'dff9a9d2e58f46eca24db74b345b1f84',
+  'teacher' => '',
+  'order' => '1',
+  'brief' => '课节简介',
+  'details' => '<p>课节详情</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000172s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235276 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"6\",\"title\":\"\\u6d4b\\u8bd5\\u89c6\\u9891\",\"file\":\"\",\"pic\":\"https:\\/\\/pgtcnd.cooov.com\\/uplaod\\/image\\/20201229\\/583c71378b059c9b78e00057566d0b68b937e13d.jpg\",\"course_id\":\"2\",\"type\":\"3\",\"is_gratis\":\"1\",\"broadcast_time\":\"1970-01-01 08:00:00\",\"watch_time\":\"\",\"parameter\":\"dff9a9d2e58f46eca24db74b345b1f84\",\"teacher\":\"\",\"order\":\"1\",\"brief\":\"\\u8bfe\\u8282\\u7b80\\u4ecb\",\"details\":\"<p>\\u8bfe\\u8282\\u8be6\\u60c5<\\/p>\"}') [ RunTime:0.001284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000455s ]
+[ sql ] [ SQL ] UPDATE `pgt_course_node`  SET `title`='测试视频',`pic`='https://pgtcnd.cooov.com/uplaod/image/20201229/583c71378b059c9b78e00057566d0b68b937e13d.jpg',`course_id`=2,`type`=3,`is_gratis`=1,`broadcast_time`=0,`watch_time`=0,`parameter`='dff9a9d2e58f46eca24db74b345b1f84',`teacher`='',`order`=1,`brief`='课节简介',`details`='<p>课节详情</p>',`update_time`=1609235276  WHERE  `id` = 6 [ RunTime:0.001191s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:56+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node
+[运行时间：0.027832s] [吞吐率：35.93req/s] [内存消耗：3,212.52kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000154s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node%' LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('课节列表' , 1 , 'admin' , 1609235276 , 'Course/course_node' , '{\"s\":\"\\/course\\/course_node\"}') [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT `id`,title as title FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000126s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:47:57+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/ajaxgetcourse_node
+[运行时间：0.029973s] [吞吐率：33.36req/s] [内存消耗：3,232.80kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'ajaxgetcourse_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '1564',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'draw' => '1',
+  'columns' => 
+  array (
+    0 => 
+    array (
+      'data' => 'id',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    1 => 
+    array (
+      'data' => 'title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    2 => 
+    array (
+      'data' => 'broadcast_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    3 => 
+    array (
+      'data' => 'type',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    4 => 
+    array (
+      'data' => 'course_title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    5 => 
+    array (
+      'data' => 'create_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    6 => 
+    array (
+      'data' => '',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+  ),
+  'start' => '0',
+  'length' => '20',
+  'search' => 
+  array (
+    'value' => '',
+    'regex' => 'false',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->ajaxGetCourse_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/ajaxgetcourse_node%' LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000419s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('ajax获取课节数据' , 1 , 'admin' , 1609235277 , 'Course/ajaxgetcourse_node' , '{\"s\":\"\\/course\\/ajaxgetcourse_node\",\"draw\":\"1\",\"columns\":[{\"data\":\"id\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"broadcast_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"type\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"course_title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"create_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}],\"start\":\"0\",\"length\":\"20\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}') [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pgt_course_node` WHERE  `is_del` = 0 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0 ORDER BY `order` DESC,`create_time` DESC LIMIT 0,20 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 2  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000099s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000102s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:48:00+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node_edit?id=5
+[运行时间：0.030424s] [吞吐率：32.87req/s] [内存消耗：3,250.09kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/add.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'detail',
+  3 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235280 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"5\"}') [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000109s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:48:05+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/course_node_edit
+[运行时间：0.029220s] [吞吐率：34.22req/s] [内存消耗：3,180.37kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node_edit?id=5',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '464',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'title' => '测试音频',
+  'file' => '',
+  'pic' => 'https://pgtcnd.cooov.com/uplaod/image/20201229/8b344a5586bf98a54707003c4c13b5b45c9fd8fc.png',
+  'course_id' => '2',
+  'type' => '4',
+  'is_gratis' => '1',
+  'broadcast_time' => '2020-12-29 00:00:00',
+  'watch_time' => '',
+  'parameter' => '42a32c6100314bfcb9c78c73cb1ac973',
+  'teacher' => '',
+  'order' => '1',
+  'brief' => '测试音频简介',
+  'details' => '<p>测试音频课节详情</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000169s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000429s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235285 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"5\",\"title\":\"\\u6d4b\\u8bd5\\u97f3\\u9891\",\"file\":\"\",\"pic\":\"https:\\/\\/pgtcnd.cooov.com\\/uplaod\\/image\\/20201229\\/8b344a5586bf98a54707003c4c13b5b45c9fd8fc.png\",\"course_id\":\"2\",\"type\":\"4\",\"is_gratis\":\"1\",\"broadcast_time\":\"2020-12-29 00:00:00\",\"watch_time\":\"\",\"parameter\":\"42a32c6100314bfcb9c78c73cb1ac973\",\"teacher\":\"\",\"order\":\"1\",\"brief\":\"\\u6d4b\\u8bd5\\u97f3\\u9891\\u7b80\\u4ecb\",\"details\":\"<p>\\u6d4b\\u8bd5\\u97f3\\u9891\\u8bfe\\u8282\\u8be6\\u60c5<\\/p>\"}') [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] UPDATE `pgt_course_node`  SET `title`='测试音频',`pic`='https://pgtcnd.cooov.com/uplaod/image/20201229/8b344a5586bf98a54707003c4c13b5b45c9fd8fc.png',`course_id`=2,`type`=4,`is_gratis`=1,`broadcast_time`=1609171200,`watch_time`=0,`parameter`='42a32c6100314bfcb9c78c73cb1ac973',`teacher`='',`order`=1,`brief`='测试音频简介',`details`='<p>测试音频课节详情</p>',`update_time`=1609235285  WHERE  `id` = 5 [ RunTime:0.001296s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:48:05+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node
+[运行时间：0.027912s] [吞吐率：35.83req/s] [内存消耗：3,212.52kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000145s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node%' LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('课节列表' , 1 , 'admin' , 1609235285 , 'Course/course_node' , '{\"s\":\"\\/course\\/course_node\"}') [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT `id`,title as title FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000116s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:48:05+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/ajaxgetcourse_node
+[运行时间：0.029843s] [吞吐率：33.51req/s] [内存消耗：3,232.80kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'ajaxgetcourse_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '1564',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'draw' => '1',
+  'columns' => 
+  array (
+    0 => 
+    array (
+      'data' => 'id',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    1 => 
+    array (
+      'data' => 'title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    2 => 
+    array (
+      'data' => 'broadcast_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    3 => 
+    array (
+      'data' => 'type',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    4 => 
+    array (
+      'data' => 'course_title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    5 => 
+    array (
+      'data' => 'create_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    6 => 
+    array (
+      'data' => '',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+  ),
+  'start' => '0',
+  'length' => '20',
+  'search' => 
+  array (
+    'value' => '',
+    'regex' => 'false',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->ajaxGetCourse_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000162s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/ajaxgetcourse_node%' LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('ajax获取课节数据' , 1 , 'admin' , 1609235285 , 'Course/ajaxgetcourse_node' , '{\"s\":\"\\/course\\/ajaxgetcourse_node\",\"draw\":\"1\",\"columns\":[{\"data\":\"id\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"broadcast_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"type\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"course_title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"create_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}],\"start\":\"0\",\"length\":\"20\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}') [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pgt_course_node` WHERE  `is_del` = 0 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0 ORDER BY `order` DESC,`create_time` DESC LIMIT 0,20 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 2  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000099s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 2  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000095s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:48:15+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node_edit?id=3
+[运行时间：0.030003s] [吞吐率：33.33req/s] [内存消耗：3,250.47kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/add.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'detail',
+  3 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000189s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235295 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"3\"}') [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000122s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:48:19+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node_edit?id=4
+[运行时间：0.030131s] [吞吐率：33.19req/s] [内存消耗：3,250.00kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/add.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'detail',
+  3 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000199s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235299 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"4\"}') [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000122s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:48:24+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/course_node_edit
+[运行时间：0.029442s] [吞吐率：33.97req/s] [内存消耗：3,179.18kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node_edit?id=4',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '350',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'title' => '测试标题',
+  'file' => '',
+  'pic' => 'https://pgtcnd.cooov.com/uplaod/image/20201222/cfd49107aae455a93020ba189d472cf0ac753e03.png',
+  'course_id' => '1',
+  'type' => '1',
+  'is_gratis' => '1',
+  'broadcast_time' => '2020-12-26 00:00:00',
+  'watch_time' => '123',
+  'parameter' => 'aa779f36eb15486ba6be3922b2354e7b',
+  'teacher' => '',
+  'order' => '1',
+  'brief' => '123',
+  'details' => '<p>123123</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000170s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235304 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"4\",\"title\":\"\\u6d4b\\u8bd5\\u6807\\u9898\",\"file\":\"\",\"pic\":\"https:\\/\\/pgtcnd.cooov.com\\/uplaod\\/image\\/20201222\\/cfd49107aae455a93020ba189d472cf0ac753e03.png\",\"course_id\":\"1\",\"type\":\"1\",\"is_gratis\":\"1\",\"broadcast_time\":\"2020-12-26 00:00:00\",\"watch_time\":\"123\",\"parameter\":\"aa779f36eb15486ba6be3922b2354e7b\",\"teacher\":\"\",\"order\":\"1\",\"brief\":\"123\",\"details\":\"<p>123123<\\/p>\"}') [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] UPDATE `pgt_course_node`  SET `title`='测试标题',`pic`='https://pgtcnd.cooov.com/uplaod/image/20201222/cfd49107aae455a93020ba189d472cf0ac753e03.png',`course_id`=1,`type`=1,`is_gratis`=1,`broadcast_time`=1608912000,`watch_time`=123,`parameter`='aa779f36eb15486ba6be3922b2354e7b',`teacher`='',`order`=1,`brief`='123',`details`='<p>123123</p>',`update_time`=1609235304  WHERE  `id` = 4 [ RunTime:0.001168s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:48:24+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node
+[运行时间：0.027663s] [吞吐率：36.15req/s] [内存消耗：3,212.52kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000152s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node%' LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('课节列表' , 1 , 'admin' , 1609235304 , 'Course/course_node' , '{\"s\":\"\\/course\\/course_node\"}') [ RunTime:0.001168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT `id`,title as title FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000128s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:48:24+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/ajaxgetcourse_node
+[运行时间：0.029287s] [吞吐率：34.14req/s] [内存消耗：3,232.80kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'ajaxgetcourse_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '1564',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'draw' => '1',
+  'columns' => 
+  array (
+    0 => 
+    array (
+      'data' => 'id',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    1 => 
+    array (
+      'data' => 'title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    2 => 
+    array (
+      'data' => 'broadcast_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    3 => 
+    array (
+      'data' => 'type',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    4 => 
+    array (
+      'data' => 'course_title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    5 => 
+    array (
+      'data' => 'create_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    6 => 
+    array (
+      'data' => '',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+  ),
+  'start' => '0',
+  'length' => '20',
+  'search' => 
+  array (
+    'value' => '',
+    'regex' => 'false',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->ajaxGetCourse_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000136s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/ajaxgetcourse_node%' LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('ajax获取课节数据' , 1 , 'admin' , 1609235304 , 'Course/ajaxgetcourse_node' , '{\"s\":\"\\/course\\/ajaxgetcourse_node\",\"draw\":\"1\",\"columns\":[{\"data\":\"id\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"broadcast_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"type\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"course_title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"create_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}],\"start\":\"0\",\"length\":\"20\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}') [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pgt_course_node` WHERE  `is_del` = 0 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0 ORDER BY `order` DESC,`create_time` DESC LIMIT 0,20 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 2  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000099s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 2  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000093s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:49:20+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/index/index
+[运行时间：0.028797s] [吞吐率：34.73req/s] [内存消耗：3,177.74kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/Login/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/peigongtang/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Index/index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'list',
+  3 => 'auth_name',
+  4 => 'username',
+  5 => 'nickname',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000186s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/index%' LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000439s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('首页' , 1 , 'admin' , 1609235360 , 'Index/index' , '{\"s\":\"\\/index\\/index\"}') [ RunTime:0.001556s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:49:21+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/index/welcome
+[运行时间：0.026336s] [吞吐率：37.97req/s] [内存消耗：3,137.76kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /www/wwwroot/peigongtang/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000196s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Index/welcome%' LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000433s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('欢迎页' , 1 , 'admin' , 1609235361 , 'Index/welcome' , '{\"s\":\"\\/index\\/welcome\"}') [ RunTime:0.001213s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:49:31+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node
+[运行时间：0.030661s] [吞吐率：32.61req/s] [内存消耗：3,361.73kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/index.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node%' LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('课节列表' , 1 , 'admin' , 1609235371 , 'Course/course_node' , '{\"s\":\"\\/course\\/course_node\"}') [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT `id`,title as title FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000114s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:49:31+08:00 ] 121.34.153.17 POST pgtadmin.cooov.com/course/ajaxgetcourse_node
+[运行时间：0.030040s] [吞吐率：33.29req/s] [内存消耗：3,232.80kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'ajaxgetcourse_node',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'origin' => 'http://pgtadmin.cooov.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '1564',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'draw' => '1',
+  'columns' => 
+  array (
+    0 => 
+    array (
+      'data' => 'id',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    1 => 
+    array (
+      'data' => 'title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    2 => 
+    array (
+      'data' => 'broadcast_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    3 => 
+    array (
+      'data' => 'type',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    4 => 
+    array (
+      'data' => 'course_title',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    5 => 
+    array (
+      'data' => 'create_time',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+    6 => 
+    array (
+      'data' => '',
+      'name' => '',
+      'searchable' => 'true',
+      'orderable' => 'false',
+      'search' => 
+      array (
+        'value' => '',
+        'regex' => 'false',
+      ),
+    ),
+  ),
+  'start' => '0',
+  'length' => '20',
+  'search' => 
+  array (
+    'value' => '',
+    'regex' => 'false',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->ajaxGetCourse_node[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000155s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/ajaxgetcourse_node%' LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('ajax获取课节数据' , 1 , 'admin' , 1609235371 , 'Course/ajaxgetcourse_node' , '{\"s\":\"\\/course\\/ajaxgetcourse_node\",\"draw\":\"1\",\"columns\":[{\"data\":\"id\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"broadcast_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"type\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"course_title\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"create_time\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}},{\"data\":\"\",\"name\":\"\",\"searchable\":\"true\",\"orderable\":\"false\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}],\"start\":\"0\",\"length\":\"20\",\"search\":{\"value\":\"\",\"regex\":\"false\"}}') [ RunTime:0.001344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pgt_course_node` WHERE  `is_del` = 0 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `is_del` = 0 ORDER BY `order` DESC,`create_time` DESC LIMIT 0,20 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 2  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 2  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `title` FROM `pgt_course` WHERE  `id` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000101s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:49:38+08:00 ] 121.34.153.17 GET pgtadmin.cooov.com/course/course_node_edit?id=3
+[运行时间：0.031581s] [吞吐率：31.66req/s] [内存消耗：3,422.03kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'course',
+    2 => 'course_node_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'RESFWQYZYCD=1; uid=p0DSb1oTuqVimxiOzHDOng%3D%3D; PHPSESSID=qfsqhm7etk5odn4knv0j4s12qs',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pgtadmin.cooov.com/course/course_node',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pgtadmin.cooov.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Course->course_node_edit[ /www/wwwroot/peigongtang/application/admin/controller/Course.php ]
+[ info ] [ VIEW ] /www/wwwroot/peigongtang/public/../application/admin/view/Course_node/add.html [ array (
+  0 => 'uid',
+  1 => 'userInfo',
+  2 => 'detail',
+  3 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000174s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_menu` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `id` <> 135 ORDER BY `sort` ASC [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_menu` WHERE  `url` LIKE '%Course/course_node_edit%' LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_group` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `name` FROM `pgt_admin_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_group` WHERE  `id` IN (1) [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_auth_rule` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_admin_auth_rule` WHERE  `groupId` IN (1)  AND `status` = 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_admin_user_action` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] INSERT INTO `pgt_admin_user_action` (`actionName` , `uid` , `nickname` , `addTime` , `url` , `data`) VALUES ('修改' , 1 , 'admin' , 1609235378 , 'Course/Course_node_edit' , '{\"s\":\"\\/course\\/course_node_edit\",\"id\":\"3\"}') [ RunTime:0.001337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course_node` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `pgt_course` WHERE  `is_del` = 0 [ RunTime:0.000109s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:52:56+08:00 ] 120.25.214.210 POST pgtapi.cooov.com/index/activityDetails
+[运行时间：0.020691s] [吞吐率：48.33req/s] [内存消耗：2,895.28kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'activityDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '4',
+  'token' => 'f3e368ab52c572efc00d957abec31713',
+  'uid' => '2',
+  'platform' => 'routine',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->activityDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000176s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_activity` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_activity` WHERE  `is_del` = 0  AND `id` = 1 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] UPDATE `pgt_activity`  SET `hits`=`hits`+1  WHERE  `id` = 1 [ RunTime:0.001426s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:53:09+08:00 ] 120.25.214.210 POST pgtapi.cooov.com/index/activityDetails
+[运行时间：0.020374s] [吞吐率：49.08req/s] [内存消耗：2,895.27kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'activityDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '4',
+  'token' => 'f3e368ab52c572efc00d957abec31713',
+  'uid' => '2',
+  'platform' => 'routine',
+  'accept' => '*/*',
+  'host' => 'pgtapi.cooov.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->activityDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000172s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_activity` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_activity` WHERE  `is_del` = 0  AND `id` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] UPDATE `pgt_activity`  SET `hits`=`hits`+1  WHERE  `id` = 1 [ RunTime:0.001358s ]
+---------------------------------------------------------------
+[ 2020-12-29T18:01:22+08:00 ] 127.0.0.1 POST pgtapi.cooov.com/index/courseDetails
+[运行时间：0.025027s] [吞吐率：39.96req/s] [内存消耗：2,977.88kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/peigongtang/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pgtapi.cooov.com',
+  'connection' => 'close',
+  'content-length' => '4',
+  'uid' => '8',
+  'platform' => 'mobile',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'token' => '8c62f5d552cb901e6050180055342c6d',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'origin' => 'http://localhost:8080',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6',
+  'x-forwarded-for' => '127.0.0.1',
+  'x-forwarded-port' => '8080',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-host' => 'localhost:8080',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->courseDetails[ /www/wwwroot/peigongtang/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000175s ] mysql:host=localhost;dbname=pgt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_course` WHERE  `is_del` = 0  AND `id` = 1 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] UPDATE `pgt_course`  SET `hits`=`hits`+1  WHERE  `id` = 1 [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_course_node` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`broadcast_time`,`create_time`,`hits`,`type` FROM `pgt_course_node` WHERE  `is_del` = 0  AND `course_id` = 1 ORDER BY `broadcast_time` DESC [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_course_log` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `percentage` FROM `pgt_user_course_log` WHERE  `user_id` = 8  AND `course_node_id` = '3' LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `percentage` FROM `pgt_user_course_log` WHERE  `user_id` = 8  AND `course_node_id` = '4' LIMIT 1 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pgt_user_course` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `pgt_user_course` WHERE  `user_id` = 8  AND `course_id` = 1  AND `type` = 1  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000132s ]
